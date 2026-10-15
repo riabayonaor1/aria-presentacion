@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.24mm" height="71.385mm" viewBox="0 0 60.24 71.385">
+<title>Vista previa de trayectorias ARIA</title>
+<g transform="translate(0 71.385) scale(1 -1)" fill="none" stroke="#163b54" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="round">
+<polyline points="3.000000,57.718333 3.000000,65.718333"/>
+<polyline points="8.333333,57.718333 8.333333,65.718333"/>
+<polyline points="3.000000,61.718333 8.333333,61.718333"/>
+<polyline points="12.333333,57.718333 11.000000,59.051667 11.000000,64.385000 12.333333,65.718333 15.000000,65.718333 16.333333,64.385000 16.333333,59.051667 15.000000,57.718333 12.333333,57.718333"/>
+<polyline points="19.000000,65.718333 19.000000,57.718333 24.333333,57.718333"/>
+<polyline points="27.000000,57.718333 29.666667,65.718333 32.333333,57.718333"/>
+<polyline points="28.333333,61.718333 31.000000,61.718333"/>
+</g>
+</svg>

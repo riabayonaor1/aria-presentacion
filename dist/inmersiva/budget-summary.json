@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "label": "3 motores + 3 ULN2003",
+      "value": "$51.000",
+      "total": false
+    },
+    {
+      "label": "Raspberry Pi 4B · ref. 4 GB",
+      "value": "$549.900",
+      "total": false
+    },
+    {
+      "label": "Arduino + cable USB",
+      "value": "$20.230",
+      "total": false
+    },
+    {
+      "label": "Cables Dupont · 2 tiras",
+      "value": "$12.555",
+      "total": false
+    },
+    {
+      "label": "PLA + reserva de impresión",
+      "value": "$90.000",
+      "total": false
+    },
+    {
+      "label": "Recargas API · US$10 + US$10",
+      "value": "$63.953",
+      "total": false
+    },
+    {
+      "label": "Accesorios y reservas adicionales",
+      "value": "$203.678",
+      "total": false
+    },
+    {
+      "label": "Total + contingencia del 10 %",
+      "value": "$1.090.448",
+      "total": true
+    }
+  ],
+  "note": "COP · 15 oct 2026 · TRM $3.197,65/USD. Reposición estimada con impresora disponible. Pantalla y audio reutilizados fuera del subtotal. No son gastos ejecutados."
+}
