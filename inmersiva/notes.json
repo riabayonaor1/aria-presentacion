@@ -1,0 +1,77 @@
+{
+  "1": {
+    "role": "Gestor de proyecto",
+    "text": "Buenos días, jurados, docentes y compañeros. Presentamos ARIA, nuestro asistente con voz, rostro y una plataforma CNC para transformar instrucciones en trazos. Su eslogan es «Tu voz toma forma». Este proyecto pertenece a la I.E. Carlos Julio Torrado Peñaranda, en articulación con el SENA.",
+    "window": "00:00–00:25"
+  },
+  "2": {
+    "role": "Gestor de proyecto",
+    "text": "Partimos de una necesidad educativa: conectar la conversación con resultados que puedan observarse y comprenderse. La idea es pedir una palabra, una figura o una función y mostrar cómo esa intención se convierte en una trayectoria. Nuestro objetivo general es integrar asistencia por voz y control de escritura. Los objetivos específicos son reconocer la solicitud, preparar trazos válidos y coordinar movimientos dentro de un área medida. El impacto esperado es apoyar actividades de tecnología y matemáticas, y explorar interfaces accesibles; su utilidad debe evaluarse con usuarios.",
+    "window": "00:25–01:05"
+  },
+  "3": {
+    "role": "Gestor de proyecto",
+    "text": "La viabilidad financiera parte de reutilizar recursos disponibles y comprar solo los faltantes. El presupuesto de reposición consultado suma aproximadamente un millón noventa mil pesos, con accesorios y diez por ciento de reserva. Los tres motores con sus drivers cuestan cincuenta y un mil pesos; las dos recargas de diez dólares equivalen juntas a sesenta y tres mil novecientos cincuenta y tres pesos con la TRM consultada. Las recargas son saldo de pruebas, no mensualidades fijas. Pantalla y audio reutilizados quedan fuera de esa cifra. Para calcular el desembolso real, cruzaremos inventario y comprobantes. Ahora explicaremos cómo ARIA interpreta la voz.",
+    "window": "01:05–02:00"
+  },
+  "4": {
+    "role": "Ingeniero de IA",
+    "text": "ARIA reparte el trabajo entre procesamiento local y servicios en la nube. Vosk reconoce localmente la activación. Después, OpenAI transcribe la voz y el modelo de conversación interpreta la petición. ElevenLabs convierte la respuesta en audio, mientras el rostro ofrece una señal visual de interacción. La Raspberry Pi coordina estos pasos. Para el CNC, el programa local transforma textos, figuras o funciones en trazos, genera G-code y valida el recorrido. El Arduino recibe instrucciones ya estructuradas. Por eso, una respuesta del modelo no se convierte directamente en impulsos eléctricos: antes pasa por controles concretos del sistema.",
+    "window": "02:00–02:55"
+  },
+  "5": {
+    "role": "Ingeniero de IA",
+    "text": "La programación asistida exige describir el equipo y el resultado esperado. Mostramos un ejemplo reproducible de prompt: «Ayúdame a revisar un controlador para Arduino Uno, con tres motores 28BYJ-48 y drivers ULN2003. Distingue el firmware del programa Python de la Raspberry. Conserva los límites y no habilites movimiento sin referencia física. Entrega cambios pequeños y pruebas». Este ejemplo permite ensayar programación asistida en Gemini. La integración de ARIA utiliza OpenAI y ElevenLabs, con las funciones que acabamos de explicar. El trabajo del equipo consiste en revisar supuestos, contrastar el código y comprobar las respuestas. Los registros documentan doscientas noventa y nueve pruebas y dieciséis casos semánticos. Estas verificaciones respaldan funciones específicas; la calidad del contacto del lápiz requiere observación física. Mi compañero mostrará los componentes.",
+    "window": "02:55–04:00"
+  },
+  "6": {
+    "role": "Especialista en hardware 1",
+    "text": "Estos son los componentes principales. La Raspberry Pi 4B ejecuta el asistente y coordina audio y solicitudes. El Arduino Uno controla el CNC. La pantalla OLED SSD1306, de ciento veintiocho por sesenta y cuatro píxeles, muestra el rostro. El audio utiliza dispositivos USB. La protoboard permite distribuir conexiones durante el prototipado y los jumpers enlazan las placas. Los finales de carrera informan sobre los extremos de los recorridos. Las placas incluyen indicadores LED para observar alimentación y actividad; cada señal debe interpretarse junto con el estado del programa. Los componentes electrónicos están sujetos a una estructura impresa en tres dimensiones.",
+    "window": "04:00–04:55"
+  },
+  "7": {
+    "role": "Especialista en hardware 1",
+    "text": "Los actuadores del CNC son tres motores paso a paso 28BYJ-48 de cinco voltios, cada uno acompañado por un driver ULN2003. El driver conmuta las bobinas siguiendo la secuencia ordenada por el controlador. Dos movimientos definen la posición en el plano: X y Y. El tercero gira el mecanismo del portalápiz para separar o acercar la punta. En este montaje, Z es rotatorio: sus valores del controlador no representan milímetros físicos de altura. Los pasos proporcionan movimiento incremental, pero holgura, fricción y fijación influyen en el trazo. Por eso necesitamos medir recorridos y revisar el acoplamiento, además del código. La referencia medida de X e Y es de sesenta y uno coma siete por setenta y dos coma cinco milímetros aproximadamente. Sigue la explicación de conexiones y seguridad.",
+    "window": "04:55–06:00"
+  },
+  "8": {
+    "role": "Especialista en hardware 2",
+    "text": "La Raspberry y el Arduino se comunican por USB mediante una interfaz serial. Por ese enlace viajan comandos y respuestas de estado. La pantalla OLED utiliza el bus I2C; sus líneas transportan reloj y datos. Los drivers de los motores reciben señales digitales del Arduino. Sus motores usan una fuente externa de cinco voltios y comparten referencia de tierra con el controlador. La Raspberry tiene su propia alimentación adecuada. Así separamos la energía de las cargas y las señales de control. Antes de energizar revisamos polaridad, continuidad y conectores. Los pines concretos se consultan en el esquema vigente, porque el firmware y las conexiones deben coincidir.",
+    "window": "06:00–06:55"
+  },
+  "9": {
+    "role": "Especialista en hardware 2",
+    "text": "La calibración identifica la geometría de trabajo y comprueba los sensores. El registro más reciente verificó un área de sesenta y uno coma seis nueve nueve por setenta y dos coma cuatro ocho ocho milímetros. Con margen de tres milímetros en cada lado, el espacio disponible para el diseño se reduce. Los finales de carrera están configurados como contactos normalmente cerrados, de modo que el controlador puede supervisar su estado. También debemos confirmar la referencia del portalápiz en la sesión y mantener la punta apartada durante traslados. Una alarma exige revisar la causa antes de continuar. Durante la sustentación solo se mueve el equipo si la preparación física está verificada; consultar el estado o previsualizar un trabajo permite explicar el flujo sin ejecutar trayectorias. El desarrollador explicará esa lógica.",
+    "window": "06:55–08:00"
+  },
+  "10": {
+    "role": "Desarrollador",
+    "text": "El software tiene dos capas. En la Raspberry, Python administra voz, herramientas, geometría y trabajos. En el Arduino, el firmware de la familia C y C++ ejecuta el control de motores y límites. La inicialización configura entradas, salidas y comunicación; el ciclo principal procesa comandos y estados. Las variables guardan posición, límites y condiciones del trabajo. La lógica condicional decide si una solicitud puede prepararse o ejecutarse. La máquina de estados distingue espera, preparación, movimiento, parada y alarma. El programa local guarda G-code, una vista SVG y metadatos. Un archivo preparado necesita validación y condiciones físicas vigentes antes de enviarse al equipo.",
+    "window": "08:00–08:55"
+  },
+  "11": {
+    "role": "Desarrollador",
+    "text": "Nuestro caso de depuración documentado fue una alarma nueve durante la medición, un fallo de validación física. El registro comparó sesenta coma veintitrés milímetros con sesenta y dos coma doscientos ocho: la diferencia superó la tolerancia y el sistema rechazó el resultado. Esa alarma no identifica por sí sola la causa mecánica. La versión R6 incorpora reglas para iniciar con un tope ya accionado, liberar esa condición de forma controlada y abortar ante combinaciones incompatibles. Después se registró una medición completa verificada y una prueba en seco de «HOLA». Las pruebas de software no sustituyen la validación del trazo en papel. La validación combina código, registros y observación del equipo; permite explicar lo comprobado y reconocer qué medición física falta. Cerramos con el modelo y la demostración.",
+    "window": "08:55–10:00"
+  },
+  "12": {
+    "role": "Maquetador",
+    "text": "El modelo disponible en Fusion permite examinar base, guías, engranajes y portalápiz. La fabricación por impresión 3D facilita adaptar soportes y reemplazar piezas. El montaje conecta esa geometría con motores y electrónica; la rigidez y la alineación son parte del funcionamiento.",
+    "window": "10:00–10:22"
+  },
+  "13": {
+    "role": "Maquetador",
+    "text": "Ahora mostraremos el estado y la preparación de un diseño. La vista previa permite revisar el resultado antes de autorizar movimiento.",
+    "window": "10:22–11:29"
+  },
+  "14": {
+    "role": "Maquetador",
+    "text": "ARIA puede convertir una petición cotidiana en una experiencia de aprendizaje visible. Tenemos integración, área medida y ensayo en seco; el contacto y la escritura sobre papel siguen pendientes de validación física.",
+    "window": "11:29–11:47"
+  },
+  "15": {
+    "role": "Maquetador",
+    "text": "Nuestro siguiente paso es comprobar ese trazo, medir resultados con usuarios y mejorar el montaje. ARIA: tu voz toma forma.",
+    "window": "11:47–11:58"
+  }
+}
