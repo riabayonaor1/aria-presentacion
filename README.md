@@ -19,7 +19,11 @@ Probado en Chrome 155, Firefox 153 y Safari 27 para macOS. El 3D necesita WebGL 
 
 ## Descargas
 
-El PDF, los guiones, el presupuesto y las fuentes se sirven con el sitio. El PowerPoint editable, el video original 1080p y el ZIP completo se conservan en GitHub Releases. Para reproducción web se incluye una versión 720p del mismo video de 180 segundos.
+El PDF, los guiones, el presupuesto y las fuentes se sirven con el sitio. El PowerPoint editable, el video original 1080p y el ZIP completo se conservan en GitHub Releases. Para reproducción web se incluye una versión 720p del mismo video de 180 segundos, ahora con narración sintética en español latino y música instrumental.
+
+## Audio del video
+
+Narración sintética con la voz Veronica de ElevenLabs y el modelo Eleven Multilingual v2. Música instrumental original de ElevenMusic v2, creada para JaqueBot y reutilizada con autorización del mismo usuario. La música acompaña a volumen bajo y con fundidos. Los créditos completos están en `dist/Fuentes_ARIA.md`.
 
 ## Evidencia y atribución
 
