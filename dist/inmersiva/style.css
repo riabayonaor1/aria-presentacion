@@ -30,3 +30,5 @@ button,a{touch-action:manipulation}.focus-nav,.model-tools,#motor-options{ -webk
 @supports(padding-bottom:env(safe-area-inset-bottom)){.bottom-bar{padding-bottom:max(16px,env(safe-area-inset-bottom))}.page-progress{bottom:env(safe-area-inset-bottom)}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
 @media(min-width:901px){.world-shade{background:linear-gradient(90deg,#f4f7f6 0%,#f4f7f6 44%,#f4f7f68c 48%,transparent 52%)}}
+
+.dialog-links{flex-wrap:wrap;row-gap:12px}
