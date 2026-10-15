@@ -1,0 +1,15 @@
+NARRACIÓN DEL VIDEO ARIA · ESPAÑOL LATINO
+351 palabras · objetivo 160 s de voz + 20 s de pausas
+
+EL RETO  000–030 s  (58 palabras)
+Aria une voz, rostro y robótica. Nuestro lema: tu voz toma forma. Nos propusimos convertir una petición hablada en algo visible: letras, figuras y gráficas sobre el papel. Una idea sencilla que exige coordinar muchas partes. En el aula, este reto nos permite aprender juntos. Diseñamos, conectamos y revisamos cada decisión para acercar la tecnología a las personas.
+
+DESARROLLO Y PRUEBAS  030–090 s  (115 palabras)
+Primero investigamos la Raspberry Pi y sus conexiones. Necesitábamos entender qué podía hacer cada componente y cómo integrarlo con el resto del sistema. La inteligencia artificial nos apoyó en el desarrollo. Le dimos contexto y restricciones; contrastamos sus propuestas con documentación y comprobamos lo que hacían. La voz se interpreta como una intención. El software convierte los trazos en código G, valida las condiciones y prepara el envío al Arduino. Probar significa observar la respuesta real del prototipo. Revisamos conexiones y alimentación, porque una respuesta del programa no garantiza un resultado físico. Antes de escribir, debemos comprobar la escala, el origen y la posición del lápiz. La calibración relaciona las coordenadas digitales con el mecanismo.
+
+LA CONSTRUCCIÓN  090–150 s  (117 palabras)
+La estructura impresa organiza los ejes y sostiene los componentes. El montaje real utiliza un Arduino Uno R3, como se observa en la fotografía. Los controladores ULN2003 accionan las bobinas de los motores. Así, las señales del Arduino se convierten en pequeños giros que podemos coordinar. Dos motores recorren la superficie de trabajo. El tercero acciona el portalápiz, para separar los desplazamientos de los momentos en que debe trazar. La Raspberry conecta la conversación de OpenAI con la voz de ElevenLabs. Por USB, Arduino recibe las instrucciones y controla el movimiento con GRBL. El rostro expresivo y la voz hacen más cercana la experiencia. La electrónica y la mecánica se integran para que el asistente pueda acompañarnos.
+
+EL RESULTADO Y LA IDEA  150–180 s  (61 palabras)
+Aria puede servir para explorar letras, figuras y matemáticas mientras aprendemos programación y robótica. Su valor educativo está en participar, preguntar y comprender cómo funciona. Estas imágenes muestran interacción e integración. La escritura sobre papel todavía requiere una comprobación física del montaje y del trazo. Este es nuestro proyecto: aprender construyendo y convertir ideas en posibilidades. Aria: tu voz toma forma.
+

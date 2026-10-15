@@ -52,6 +52,12 @@ Slogan: **Tu voz toma forma**.
 
 Símbolo original generado mediante la herramienta integrada de imagen. Concepto: rostro amable integrado con rieles cartesianos y una punta de escritura. Paleta: turquesa #087F8C, coral #ED765E, fondo #F4F7F6 y texto #132B32. Prompt guardado en identidad/Prompt_logo.txt.
 
+## Audio del videoclip
+
+El videoclip de 180 segundos incluye narración sintética en español latino con la voz **Veronica** de ElevenLabs y el modelo **Eleven Multilingual v2** (`eleven_multilingual_v2`). Esta locución se añadió a la edición audiovisual y no corresponde al sonido capturado del robot durante las tomas.
+
+La música instrumental original se generó con **ElevenMusic v2** para el proyecto JaqueBot. Se reutiliza en ARIA con autorización expresa del mismo usuario, a volumen bajo y con fundidos de entrada y salida para acompañar la narración. Las fotografías, los videos del proceso y la duración del montaje se conservan.
+
 ## Alcance de la evidencia
 
 El prompt de programación es un ejemplo reproducible, no una captura histórica. La guía propone Gemini para programación asistida; el funcionamiento verificado de ARIA usa OpenAI y ElevenLabs. El video muestra montaje, pantalla y pruebas reales. No atribuye escritura sobre papel ni incidentes físicos específicos que no estén registrados. La accesibilidad y el impacto son objetivos por evaluar con usuarios.
