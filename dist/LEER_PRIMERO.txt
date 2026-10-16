@@ -1,0 +1,42 @@
+ARIA · TU VOZ TOMA FORMA
+Sustentación SENA · I.E. Carlos Julio Torrado Peñaranda
+
+ABRIR EL RECORRIDO 3D
+En Mac: doble clic en ABRIR_ARIA.command. Mantener esa ventana de Terminal abierta durante la exposición.
+También: abrir una terminal en esta carpeta, ejecutar python3 -m http.server 8790 --bind 127.0.0.1 y entrar en http://127.0.0.1:8790/inmersiva/.
+El visor utiliza archivos locales. El modelo 3D necesita servidor local; abrir index.html directamente puede bloquear las mallas por la política del navegador.
+Al cambiar de tema, la cámara enfoca el componente del CAD. La barra ENFOCAR permite repetir la vista de motores, controlador, ULN2003, rieles y portalápiz.
+Compatibilidad: Chrome, Safari, Firefox y Edge actuales. El modelo interactivo necesita WebGL 2; si no está disponible, el recorrido conserva una vista estática, guiones y video. Respeta «reducir movimiento» del sistema. Pruebas realizadas en Chrome 155, Firefox 153 y Safari 27 de este Mac.
+F: pantalla completa donde el navegador la permite. G: guiones. I: capítulos. E: explorar. D: despiece. Flechas: avanzar/retroceder.
+
+ARCHIVOS
+Sustentacion_ARIA_actualizada.pptx: PowerPoint editable. 16 diapositivas principales y 4 anexos ocultos para preguntas.
+Sustentacion_ARIA.pdf: consulta fija de las 20 diapositivas. No incluye reproducción de video.
+Guion_ARIA.docx / Guion_ARIA.pdf: textos de los seis roles genéricos, tiempos, preguntas, presupuesto y ensayo.
+Video_ARIA_3min_v2.mp4: cierre de 180 segundos. Está en el recorrido 3D. En PowerPoint se abre como archivo externo de esta carpeta.
+Presupuesto_ARIA.csv: detalle editable en Excel, con fuentes y supuestos.
+Fuentes_ARIA.md: referencias de precios, software y evidencia.
+identidad/ARIA_logo.png: símbolo original con transparencia. Slogan: Tu voz toma forma.
+
+TIEMPOS
+00:00–02:00 Gestor de proyecto
+02:00–04:00 Ingeniero de IA
+04:00–06:00 Hardware 1
+06:00–08:00 Hardware 2
+08:00–10:00 Desarrollador
+10:00–12:00 Maquetador y demostración
+12:00–15:00 Video
+15:00–20:00 Preguntas
+
+PARA ENSAYAR
+La presentación no envía órdenes al robot. El ejemplo de prompt está identificado como reproducible. Las pruebas documentadas incluyen trazado en seco. Para presentar escritura sobre papel se debe comprobar físicamente la punta, la referencia del portalápiz y el resultado real. El video no sustituye esas pruebas.
+Las recargas USD10 + USD10 son presupuestadas. No se realizaron compras. El total referencial con accesorios y reserva es COP1.090.448; pantalla, audio y equipos reutilizados quedan fuera de esa cifra.
+
+EDICIÓN DEL VIDEO
+El ZIP contiene el MP4 terminado. El proyecto editable se conserva en la carpeta video de la entrega original del computador. Studio local permite editarlo; HyperFrames desktop añade edición con Framey: https://hyperframes.dev/studio/download
+
+ACTUALIZACIÓN 16/10/2026
+Modelo completo con soporte, pantalla y enfriador en Fusion y en la presentación.
+Guion_ARIA.txt: copia de lectura sencilla, adicional a Word y PDF.
+modelo/ARIA_CNC_Pantalla_Raspberry_Enfriador.glb: modelo completo para ver e intercambiar. El documento EnsamblajeCNCARIA quedó actualizado en Fusion, versión 3.
+Las dimensiones de la electrónica reconstruida son aproximadas a partir del video; la geometría STL del soporte se conserva.

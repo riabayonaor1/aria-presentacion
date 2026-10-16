@@ -3,7 +3,11 @@ import {OrbitControls} from './assets/vendor/OrbitControls.js';
 import {GLTFLoader} from './assets/vendor/GLTFLoader.js';
 
 const TOPICS={
- general:{label:'EnsamblajeCNCARIA completo',detail:'Geometría de Autodesk Fusion · componentes sólidos con materiales de presentación',ids:null,dir:[-1.1,1.05,1.5]},
+ assistant:{label:'El asistente con pantalla y enfriador',detail:'Soporte impreso a partir de las piezas aportadas; pantalla y enfriador reproducidos del video',ids:['stand','screen','raspberry','cooler','fan'],dir:[-1.1,.7,1.65]},
+ raspberry:{label:'Raspberry Pi: el computador del asistente',detail:'Coordina la conversación y el rostro; el enfriador con ventilador ayuda a sacar calor',ids:['raspberry','cooler','fan'],dir:[-1,1.05,1.5]},
+ screen:{label:'Pantalla y soporte impreso',detail:'La columna sostiene la pantalla para mantener el rostro de ARIA elevado y visible',ids:['stand','screen'],dir:[-.55,.5,1.6]},
+ cooling:{label:'Enfriador de torre y ventilador lateral',detail:'Las láminas metálicas y el ventilador ayudan a sacar calor de la Raspberry',ids:['cooler','fan'],dir:[-1.7,1.1,-.45]},
+ general:{label:'EnsamblajeCNCARIA completo',detail:'CNC, soporte impreso, pantalla con rostro y Raspberry con enfriador · conjunto en Fusion',ids:null,dir:[-1.1,1.05,1.5]},
  motors:{label:'Motor 28BYJ-48 de 5 V',detail:'Uno de los tres motores paso a paso del conjunto · selecciona 1, 2 o 3',ids:['motor_2'],dir:[-.65,.8,1.3]},
  motor1:{label:'Motor 28BYJ-48 · 1',detail:'Motor paso a paso de referencia del conjunto CAD',ids:['motor_1'],dir:[-.8,1,1.5]},
  motor2:{label:'Motor 28BYJ-48 · 2',detail:'Motor paso a paso de referencia del conjunto CAD',ids:['motor_2'],dir:[-.65,.8,1.3]},
@@ -14,7 +18,7 @@ const TOPICS={
  pen:{label:'Portalápiz y motor giratorio',detail:'Z cambia el contacto del bolígrafo; las unidades del controlador no son altura física',ids:['holder','motor_2','pen'],dir:[-.9,.65,1.2]},
  calibration:{label:'La referencia se establece con el montaje real',detail:'Las dimensiones y la escala se validan físicamente; el CAD muestra la mecánica',ids:['rail_fixed','rail_slider','crossarm','crossrail'],dir:[-.15,2,1.1]}
 };
-const CHAPTER_TOPICS=['general','general','general','general','general','controller','motors','controller','calibration','general','calibration','rails','pen','general','general','general'];
+const CHAPTER_TOPICS=['general','general','general','assistant','general','assistant','motors','controller','calibration','raspberry','calibration','general','pen','general','general','general'];
 
 export async function createWorld({host,onReady=()=>{},onSelect=()=>{},onError=()=>{},onFocus=()=>{}}){
  const staticWorld={setCaptureZoom(){},setJourney(){},setChapter(){},focusTopic(){},setExploring(){},setExploded(){},reset(){},dispose(){},getState(){return{ready:false,mode:'static',meshes:0,groups:0};},getGroupPositions(){return[];}};
@@ -22,7 +26,7 @@ export async function createWorld({host,onReady=()=>{},onSelect=()=>{},onError=(
  const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(34,1,.01,100);
  let renderer;try{renderer=new THREE.WebGLRenderer({alpha:true,antialias:true});}catch(e){onError(e);return staticWorld;}
  renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.7));renderer.setClearColor(0xf4f7f6,0);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.86;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;host.appendChild(renderer.domElement);
- const canvas=renderer.domElement;canvas.setAttribute('aria-label','Modelo CNC de ARIA basado en Autodesk Fusion y adaptado con Arduino UNO R3');canvas.setAttribute('role','img');
+ const canvas=renderer.domElement;canvas.setAttribute('aria-label','Modelo CNC de ARIA basado en Autodesk Fusion y con Arduino Uno R3, pantalla y Raspberry con enfriador');canvas.setAttribute('role','img');
  const motionQuery=typeof window.matchMedia==='function'?window.matchMedia('(prefers-reduced-motion: reduce)'):null;
  let reducedMotion=!!motionQuery?.matches;
  const controls=new OrbitControls(camera,canvas);controls.enabled=false;controls.enableDamping=!reducedMotion;controls.dampingFactor=.07;controls.minDistance=.45;controls.maxDistance=12;controls.maxPolarAngle=Math.PI*.49;controls.touches.ONE=THREE.TOUCH.ROTATE;controls.touches.TWO=THREE.TOUCH.DOLLY_PAN;canvas.style.touchAction='pan-y';
@@ -49,7 +53,7 @@ export async function createWorld({host,onReady=()=>{},onSelect=()=>{},onError=(
   if(focusedBox.isEmpty())focusedBox.copy(wholeBox);
   const size=focusedBox.getSize(new THREE.Vector3()),center=focusedBox.getCenter(new THREE.Vector3());
   // Enclose a bounding sphere so every allowed angle and the narrow viewport fit.
-  const radius=Math.max(size.length()/2,.13),vertical=Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov/2))),horizontal=Math.atan(Math.tan(vertical)*camera.aspect);
+  let framingSize=size; if(['assistant','raspberry','screen','cooling'].includes(topic)){const assistantBox=new THREE.Box3(); for(const id of ['stand','screen','raspberry','cooler','fan'])if(groupBoxes.has(id))assistantBox.union(groupBoxes.get(id));framingSize=assistantBox.getSize(new THREE.Vector3());} const radius=Math.max(framingSize.length()/2,.13),vertical=Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov/2))),horizontal=Math.atan(Math.tan(vertical)*camera.aspect);
   const limiting=Math.min(vertical,horizontal);let distance=radius/Math.sin(limiting)*(topic==='general'?1.05:1.2);
   distance=Math.max(distance,topic==='general'?5.2:.9);
   const direction=new THREE.Vector3(...t.dir).normalize();wantedTarget.copy(center);wantedCamera.copy(center).addScaledVector(direction,distance);
@@ -83,7 +87,7 @@ export async function createWorld({host,onReady=()=>{},onSelect=()=>{},onError=(
  canvas.addEventListener('webglcontextlost',lost,false);canvas.addEventListener('webglcontextrestored',restored,false);
  controls.addEventListener('change',schedule);controls.addEventListener('start',schedule);controls.addEventListener('end',schedule);
  try{
-  const [gltf,metadata]=await Promise.all([new GLTFLoader().loadAsync('assets/model/aria-cnc.glb'),fetch('assets/model/pieces.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el índice del modelo 3D.');return r.json();})]);const meta=new Map(metadata.map(p=>[p.id,p])),model=gltf.scene;group.add(model);let sourceBox=new THREE.Box3().setFromObject(model),size=sourceBox.getSize(new THREE.Vector3()),center=sourceBox.getCenter(new THREE.Vector3());scale=2.6/Math.max(size.x,size.z);model.scale.setScalar(scale);model.position.set(-center.x*scale,-sourceBox.min.y*scale,-center.z*scale);model.updateMatrixWorld(true);wholeBox.setFromObject(model);
+  const [gltf,metadata]=await Promise.all([new GLTFLoader().loadAsync('assets/model/aria-cnc.glb?v=modelo20261016final'),fetch('assets/model/pieces.json?v=modelo20261016final').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el índice del modelo 3D.');return r.json();})]);const meta=new Map(metadata.map(p=>[p.id,p])),model=gltf.scene;group.add(model);let sourceBox=new THREE.Box3().setFromObject(model),size=sourceBox.getSize(new THREE.Vector3()),center=sourceBox.getCenter(new THREE.Vector3());scale=2.6/Math.max(size.x,size.z);model.scale.setScalar(scale);model.position.set(-center.x*scale,-sourceBox.min.y*scale,-center.z*scale);model.updateMatrixWorld(true);wholeBox.setFromObject(model);
   model.traverse(m=>{if(!m.isMesh)return;const info=meta.get(m.userData.pieceId)||meta.get(m.name);if(info){m.userData={...m.userData,...info};m.userData.groupId=info.assemblyGroup;}else m.userData.groupId=m.name;m.castShadow=true;m.receiveShadow=true;m.material=m.material.clone();const id=m.userData.groupId;
    // Presentation materials improve shape legibility; the archived source GLB is intact.
    if(id==='Tabla de dibujo'){m.material.color.set('#84979D');m.material.metalness=.12;m.material.roughness=.82;}
@@ -92,7 +96,7 @@ export async function createWorld({host,onReady=()=>{},onSelect=()=>{},onError=(
    else if(id.startsWith('gear_')){m.material.color.set('#D6DAD5');m.material.metalness=.08;m.material.roughness=.45;}
    else if(m.userData.group==='Metal Case'){m.material.color.set('#82949C');m.material.metalness=.5;m.material.roughness=.42;}
    m.material.opacity=1;m.material.transparent=false;m.material.depthWrite=true;meshes.push(m);materials.push([m,m.material.clone()]);basePositions.set(m,m.position.clone());if(['rail_fixed','rail_slider','crossarm','crossrail','gear_1','gear_2','holder'].includes(id)||m.userData.group==='Metal Case'){const line=new THREE.LineSegments(new THREE.EdgesGeometry(m.geometry,24),new THREE.LineBasicMaterial({color:0x087f8c,transparent:true,opacity:.6}));line.visible=false;line.raycast=()=>{};m.add(line);m.userData.focusOutline=line;}if(!groupBoxes.has(id))groupBoxes.set(id,new THREE.Box3());groupBoxes.get(id).expandByObject(m);});
-  for(const [id,b]of groupBoxes){let c=b.getCenter(new THREE.Vector3()),v=new THREE.Vector3(c.x*.28,.28,c.z*.28);if(id==='Tabla de dibujo')v.set(0,0,0);else if(id==='uno')v.set(-.1,.5,.45);else if(id.startsWith('uln_'))v.set(c.x*.3,.28,.55);else if(id==='pen')v.set(.35,.7,0);else if(id==='holder')v.set(.42,.27,0);else if(id==='crossrail')v.set(.15,.52,-.2);else if(id==='crossarm')v.set(.1,.25,-.1);else if(id==='rail_fixed')v.set(-.2,.03,0);else if(id==='rail_slider')v.set(-.38,.28,0);else if(id.startsWith('motor_'))v.set(c.x*.35,.38,c.z*.35);groupVectors.set(id,v.divideScalar(scale));}
+  for(const [id,b]of groupBoxes){let c=b.getCenter(new THREE.Vector3()),v=new THREE.Vector3(c.x*.28,.28,c.z*.28);if(['stand','screen','raspberry','cooler','fan'].includes(id))v.set(id==='screen'?1.0:.65,id==='screen'?1.0:.4,.4);else if(id==='Tabla de dibujo')v.set(0,0,0);else if(id==='uno')v.set(-.1,.5,.45);else if(id.startsWith('uln_'))v.set(c.x*.3,.28,.55);else if(id==='pen')v.set(.35,.7,0);else if(id==='holder')v.set(.42,.27,0);else if(id==='crossrail')v.set(.15,.52,-.2);else if(id==='crossarm')v.set(.1,.25,-.1);else if(id==='rail_fixed')v.set(-.2,.03,0);else if(id==='rail_slider')v.set(-.38,.28,0);else if(id.startsWith('motor_'))v.set(c.x*.35,.38,c.z*.35);groupVectors.set(id,v.divideScalar(scale));}
   for(const m of meshes)explodeVectors.set(m,groupVectors.get(m.userData.groupId));ready=true;positionDirty=true;loadInfo={meshes:meshes.length,groups:groupBoxes.size,source:gltf.parser.json.asset.generator};focusTopic(CHAPTER_TOPICS[chapter],{automatic:true});if(!contextLost)onReady(loadInfo);
  }catch(e){dispose();onError(e);return staticWorld;}
  const raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();let down=null;

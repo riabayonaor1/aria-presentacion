@@ -4,10 +4,11 @@ Presentación de sustentación SENA de un asistente de voz y rostro expresivo co
 
 ## Ver la presentación
 
+- GitHub Pages: https://riabayonaor1.github.io/aria-presentacion/
 - Sites: https://aria-cnc-sustentacion-2026.rickynovich32.chatgpt.site
 - Archivos: https://github.com/riabayonaor1/aria-presentacion/releases/tag/sustentacion-2026-10-15
 
-El sitio arranca en `dist/index.html` y conserva la presentación en `dist/inmersiva/`. El modelo completo tiene 316 mallas en 18 grupos y representa la mecánica de Fusion con electrónica adaptada a Arduino Uno R3. Las superficies son sólidas y la cámara enfoca motores, controlador, ULN2003, rieles y portalápiz.
+El sitio arranca en `dist/index.html` y conserva la presentación en `dist/inmersiva/`. El modelo completo tiene 536 mallas en 23 grupos y representa la mecánica de Fusion con electrónica adaptada a Arduino Uno R3. Las superficies son sólidas y la cámara enfoca motores, controlador, ULN2003, rieles y portalápiz.
 
 ## Uso local
 
@@ -30,3 +31,6 @@ Narración sintética con la voz Veronica de ElevenLabs y el modelo Eleven Multi
 Las pruebas de escritura documentadas incluyen un ensayo sin lápiz: el trazo físico sobre papel aún requiere evaluación. El despiece es explicativo. La presentación no controla el robot ni contiene credenciales API.
 
 Modelo mecánico basado en Simple CNC Plotter de mith y el ensamblaje del proyecto en Autodesk Fusion. Placa Uno R3 adaptada desde el modelo de benjamino (Cad Crowd), CC BY 4.0. Detalle en `dist/inmersiva/assets/model/UNO_FUENTE_Y_LICENCIA.md`, `model-info.json` y `dist/Fuentes_ARIA.md`. Three.js conserva su licencia MIT. Marca ARIA creada para el proyecto; logos institucionales utilizados para identificar la sustentación.
+
+
+Actualización 16/10/2026: modelo con soporte impreso, pantalla con rostro, Raspberry, disipador de torre y ventilador lateral. Nuevos enfoques «Rostro», «Raspberry» y «Enfriador». La reconstrucción de electrónica sigue el video aportado; sus dimensiones son aproximadas. Guion reescrito en lenguaje sencillo para seis roles, también en las notas del expositor.
