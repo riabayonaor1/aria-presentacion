@@ -1,0 +1,227 @@
+Guion de sustentación ARIA
+Versión del 16 de octubre de 2026
+I.E. Carlos Julio Torrado Peñaranda
+
+Explicar qué queremos conseguir con ARIA, qué hace cada parte y cómo construimos el prototipo, para que una persona sin formación técnica siga la presentación.
+
+TIEMPOS
+12 minutos de exposición y demostración + 3 minutos de video + 5 minutos de preguntas.
+
+GESTOR DE PROYECTO
+00:00–02:00
+Propósito: Presentar para qué sirve ARIA, qué queremos lograr y cómo organizamos el presupuesto.
+
+Diapositiva 1 — Presentación de ARIA — 00:00–00:30
+Buenos días, jurados, docentes y compañeros. Somos el equipo de ARIA, de la Institución Educativa Carlos Julio Torrado Peñaranda, en articulación con el SENA. Nuestro lema es «Tu voz toma forma». ARIA es un prototipo: una primera versión de un asistente que une conversación, un rostro en pantalla y un mecanismo para preparar trazos.
+
+Diapositiva 2 — Necesidad y objetivos — 00:30–01:10
+Queremos que aprender tecnología sea algo que podamos ver y probar. La idea es decir una palabra, pedir una figura o una gráfica y comprender cómo el equipo prepara sus movimientos. El objetivo final es que un lápiz lleve esos trazos al papel. El mecanismo es una CNC, es decir, una máquina que sigue movimientos indicados por un computador. Así podemos relacionar lenguaje, matemáticas y construcción. Buscamos que estudiantes y docentes participen en el proceso y entiendan qué hace cada parte.
+
+Diapositiva 3 — Presupuesto y recursos — 01:10–02:00
+Para cuidar el presupuesto, partimos de los componentes disponibles y calculamos qué faltaría comprar. La referencia completa es de un millón noventa mil cuatrocientos cuarenta y ocho pesos, con una reserva para imprevistos. Incluye tres motores, Arduino, Raspberry, cables, impresión y servicios de voz. Reservamos diez dólares para OpenAI y diez para ElevenLabs. No es una suma de facturas ni un cobro mensual fijo. El gasto real depende de lo que ya tenemos y del uso de los servicios. Ahora explicaremos cómo se conectan la voz y la programación.
+
+Preguntas para ensayar
+¿Para qué sirve ARIA?
+Para aprender cómo una petición hablada puede convertirse en una respuesta y en movimientos preparados por un computador. Proponemos usarlo con letras, figuras y gráficas. La escritura física en papel es el objetivo que todavía debemos demostrar.
+
+¿Ese presupuesto es lo que gastaron?
+Es una referencia de cuánto costaría reunir los materiales incluidos. El gasto real se comprueba con facturas y descontando lo que ya tenemos. Por eso separamos precios consultados de valores estimados.
+
+¿Diez dólares permiten usar cada servicio durante un mes?
+No podemos prometer un mes. Es un saldo inicial de pruebas. Se consume según la cantidad de audio, las respuestas y el modelo utilizado.
+
+INGENIERO DE IA
+02:00–04:00
+Propósito: Explicar la conversación del asistente y cómo usamos Codex para ayudar a programar.
+
+Diapositiva 4 — De la voz a la respuesta — 02:00–03:00
+La Raspberry Pi es un computador pequeño que coordina el asistente. Primero escucha la activación; después OpenAI ayuda a convertir la voz en texto y a entender la petición. ElevenLabs convierte la respuesta escrita en una voz que podemos oír. El programa también muestra expresiones en el rostro. Para conectar esos servicios usamos una API: una conexión que permite a un programa pedir una función a otro. Si pedimos un dibujo, el programa local prepara su recorrido. Antes de mover el mecanismo, comprueba que el trabajo cumpla las condiciones del equipo. Una respuesta de la inteligencia artificial necesita esa revisión.
+
+Diapositiva 5 — Programación con ayuda de Codex — 03:00–04:00
+Para construir el programa utilizamos ayuda de Codex, una herramienta de inteligencia artificial para trabajar con código. Le explicamos el equipo disponible y lo que necesitábamos. Esa solicitud escrita se llama prompt. Por ejemplo: «Tenemos un Arduino Uno R3, tres motores y una Raspberry. Ayúdanos a revisar el programa sin quitar las comprobaciones de seguridad». También indicamos las librerías, que son paquetes de funciones ya hechas, y revisamos que fueran compatibles. Comprobamos las propuestas antes de aceptarlas. La ayuda no reemplaza conocer los cables, el mecanismo ni las pruebas. Codex apoyó la programación; OpenAI y ElevenLabs forman parte de la conversación de ARIA. Mi compañero mostrará ahora los componentes.
+
+Preguntas para ensayar
+¿Qué es un prompt?
+Es la instrucción que escribimos a una herramienta de inteligencia artificial. Para que ayude, le decimos qué tenemos, qué queremos conseguir y qué condiciones debe respetar.
+
+La guía menciona Gemini. ¿Cuál utilizaron ustedes?
+En este proyecto explicamos la ayuda real de Codex para programar. La guía propone Gemini como ejemplo de programación asistida. No afirmamos haber usado una herramienta si no tenemos evidencia de ello.
+
+¿La inteligencia artificial manda directamente los motores?
+No. El programa prepara un recorrido, comprueba sus límites y revisa las condiciones del equipo antes de enviarlo al Arduino. La respuesta de la conversación pasa por esas comprobaciones.
+
+¿Para qué se necesitan OpenAI y ElevenLabs?
+OpenAI ayuda a pasar la voz a texto y a interpretar la petición. ElevenLabs transforma la respuesta escrita en voz. La Raspberry reúne esas funciones con el resto del programa.
+
+ESPECIALISTA EN HARDWARE 1
+04:00–06:00
+Propósito: Mostrar las piezas físicas y explicar la función de los tres motores.
+
+Diapositiva 6 — Componentes del proyecto — 04:00–05:00
+Hardware significa las piezas físicas del proyecto. La Raspberry Pi 4B ejecuta el asistente. El Arduino Uno R3 es una placa que recibe instrucciones y controla el mecanismo. Una pantalla OLED, que es una pantalla pequeña, muestra el rostro. El micrófono recoge la voz y la salida de audio reproduce la respuesta. La protoboard es la base de agujeros que permite unir cables sin soldarlos. Los jumpers son los cables pequeños de conexión. También hay interruptores de final de recorrido: avisan cuando una parte llega a un extremo. Una columna impresa sostiene la pantalla. El enfriador de la Raspberry combina piezas de metal y un ventilador para ayudar a sacar calor.
+
+Diapositiva 7 — Los tres motores — 05:00–06:00
+Utilizamos tres motores paso a paso. Se llaman así porque giran en pequeños avances que el programa puede ordenar. Son del modelo 28BYJ-48 y trabajan con cinco voltios. Cada uno usa una placa ULN2003, llamada controlador o driver, que activa sus bobinas, las partes eléctricas que producen el giro. Dos motores ubican el lápiz sobre la superficie: uno controla una dirección y el otro, la dirección cruzada. Las llamamos X y Y, como en una cuadrícula. El tercer motor, al que llamamos Z, gira el portalápiz para acercar o separar la punta. Aquí ese tercer movimiento es un giro, no una altura medida en milímetros. Ahora veremos las conexiones.
+
+Preguntas para ensayar
+¿Por qué hay dos placas principales?
+La Raspberry hace el trabajo de conversación y prepara las solicitudes. El Arduino se ocupa del control del mecanismo. Cada placa tiene una tarea distinta dentro del mismo proyecto.
+
+¿Por qué un motor necesita un driver?
+Porque una salida del Arduino sirve para dar una señal y no debe alimentar por sí sola las bobinas del motor. El driver activa esas bobinas usando la alimentación correspondiente.
+
+¿Qué hace el tercer motor?
+Gira el soporte del lápiz. Sirve para separar los desplazamientos de los momentos en que queremos trazar. Su posición debe comprobarse físicamente antes de usarlo sobre papel.
+
+¿Para qué sirven la columna y el enfriador?
+La columna mantiene la pantalla del rostro elevada y visible. El enfriador ayuda a sacar calor de la Raspberry con metal y un ventilador. No hemos presentado una medición de temperatura ni de rendimiento.
+
+ESPECIALISTA EN HARDWARE 2
+06:00–08:00
+Propósito: Explicar cómo se comunican las piezas y qué revisamos para trabajar con seguridad.
+
+Diapositiva 8 — Conexiones y comunicación — 06:00–07:00
+La Raspberry se conecta al Arduino por un cable USB. Dentro de ese enlace usan comunicación serial: envían instrucciones y respuestas una detrás de otra. La pantalla utiliza I2C, una forma de comunicación con una línea de datos y otra que marca el ritmo del envío. Los cables del Arduino llevan señales a los controladores de los motores. Los motores tienen una fuente externa de cinco voltios. La Raspberry tiene su propia alimentación. La referencia de tierra une el circuito de control con el de los motores; sirve como punto común para interpretar las señales. Revisamos las conexiones con el esquema antes de encender.
+
+Diapositiva 9 — Calibración y seguridad — 07:00–08:00
+Calibrar significa comprobar que lo que pide el programa corresponde con el movimiento real. Revisamos el sentido de los motores, los interruptores de los extremos y el espacio disponible. El recorrido medido es de unos seis por siete centímetros. Dejamos un margen para no trabajar pegados a los bordes. Antes de usar el lápiz hay que comprobar su posición y que el mecanismo esté despejado. Si aparece una alarma, detenemos el trabajo y revisamos qué pasó. No quitamos la advertencia solo para continuar. Durante la demostración mostraremos el estado y un diseño preparado. El desarrollador explicará cómo el programa toma esas decisiones.
+
+Preguntas para ensayar
+¿Qué significan X y Y?
+Son los nombres de las dos direcciones sobre la superficie de trabajo. Son como las dos direcciones de una cuadrícula: una permite moverse a un lado y la otra cruza ese movimiento.
+
+¿Qué hacen los finales de recorrido?
+Son interruptores que informan sobre los extremos del mecanismo. En este montaje el circuito está cerrado en reposo. Al cambiar ese estado, el programa debe revisar la situación y aplicar su control de límites.
+
+¿Usan SPI o relés?
+En el enlace explicado usamos USB serial y, para la pantalla, I2C. No necesitamos atribuir al CNC todos los componentes y conexiones que la guía menciona como ejemplos de otros proyectos.
+
+¿Por qué no conectan los motores directamente a la Raspberry?
+Porque la Raspberry coordina la conversación y sus salidas no están para alimentar las bobinas. El Arduino envía las señales de control y cada ULN2003 activa su motor con la fuente adecuada.
+
+DESARROLLADOR
+08:00–10:00
+Propósito: Explicar el programa, sus comprobaciones y un problema real del proceso.
+
+Diapositiva 10 — Cómo trabaja el programa — 08:00–09:00
+El software es el conjunto de instrucciones del equipo. En la Raspberry usamos Python, un lenguaje para escribir programas. Allí se coordinan la conversación y los dibujos. En el Arduino hay un firmware: el programa cargado en la placa. Está adaptado de GRBL, un programa de control de movimiento escrito en C, otro lenguaje de programación. Recibe código G, que son órdenes como ir a una posición. Al arrancar, prepara sus conexiones; después sigue revisando las instrucciones y el estado del mecanismo. Las variables guardan datos, por ejemplo la posición. Las condiciones permiten decidir: si falta una referencia o hay una alarma, el trabajo no debe empezar.
+
+Diapositiva 11 — Problema y revisión del resultado — 09:00–10:00
+Un problema real apareció al medir el recorrido. El sistema comparó dos mediciones que no coincidían y mostró la alarma nueve. Rechazó el resultado en vez de darlo por correcto. Revisamos el manejo de los interruptores y las condiciones de arranque del programa. Después quedó registrada una medición válida y una prueba de movimiento para la palabra «HOLA», sin lápiz. Esa prueba comprueba una parte del funcionamiento; todavía debemos demostrar el contacto y la escritura sobre papel. La causa física de la diferencia anterior no quedó confirmada. Depurar significa revisar un problema, cambiar algo concreto y volver a comprobar. El maquetador cerrará con el armado y la demostración.
+
+Preguntas para ensayar
+¿Qué es una máquina de estados?
+Es una forma de organizar el programa según lo que está haciendo. Por ejemplo, puede estar esperando, preparando un trabajo, moviéndose o mostrando una alarma. Solo permite ciertas acciones en cada situación.
+
+¿Dónde están setup y loop?
+Esos nombres suelen significar preparar el Arduino una vez y repetir su trabajo. Nuestro programa GRBL adaptado usa main para iniciar y protocol_main_loop para revisar instrucciones. Cumple esas tareas con nombres propios de ese programa.
+
+¿La alarma nueve fue un error de compilación?
+No. Compilar significa convertir el código en un programa que la placa pueda usar. La alarma documentada ocurrió después, mientras se medía el mecanismo. No presentamos como real un error de compilación del que no tenemos un registro.
+
+¿La modificación demostró cuál pieza estaba fallando?
+No quedó confirmada la causa física. Sí quedó registrada una mejora en el control de las condiciones de arranque y una medición posterior válida. Son dos afirmaciones diferentes.
+
+MAQUETADOR
+10:00–12:00
+Propósito: Explicar cómo armamos el modelo, conducir la demostración y cerrar el propósito educativo.
+
+Diapositiva 12 — Del modelo al armado — 10:00–10:20
+Seguimos modelos existentes y revisamos sus piezas en Fusion, un programa para verlas en tres dimensiones. Las imprimimos en plástico, capa por capa, y armamos base, guías, motores y portalápiz. Luego revisamos que encajaran y se movieran.
+
+Diapositiva 13 — Demostración — 10:20–11:35
+Mostraremos el estado y «HOLA». La vista previa es el dibujo preparado antes de enviarlo al mecanismo.
+
+Diapositiva 14 — Uso e impacto — 11:35–11:50
+Queremos que ARIA ayude a aprender participando. Ya tenemos integración y pruebas de movimiento. Falta demostrar el trazo sobre papel y evaluar su utilidad con estudiantes.
+
+Diapositiva 15 — Cierre — 11:50–11:58
+Aprendimos a construir, conectar y revisar con ayuda de la programación. ARIA: tu voz toma forma.
+
+Preguntas para ensayar
+¿Diseñaron todas las piezas desde cero?
+No. Partimos de modelos publicados, seguimos esa base y la adaptamos al montaje. Damos crédito a sus autores. Fusion nos permite revisar el ensamblaje y explicar cómo encajan las piezas.
+
+¿Qué es impresión 3D?
+Es fabricar una pieza de un archivo digital colocando material capa por capa. Aquí usamos PLA, un plástico de impresión, para formar piezas y soportes del montaje.
+
+¿Ya escribe en una hoja?
+Tenemos el recorrido preparado y un ensayo de movimiento sin lápiz. Para afirmar que escribe en papel necesitamos comprobar el contacto de la punta y guardar esa prueba.
+
+¿Qué muestran si el mecanismo no está listo?
+Mostramos el modelo, una consulta de estado o su registro identificado y el dibujo preparado. Eso permite explicar el proceso sin enviar una orden de movimiento.
+
+DEMOSTRACIÓN — 10:30 a 11:35
+0 a 15 segundos
+Mostrar el modelo 3D y señalar las dos direcciones del plano y el giro del portalápiz.
+Decir: Aquí vemos cómo se unen las piezas. Estos dos motores recorren la superficie y el tercero gira el soporte del lápiz.
+
+15 a 30 segundos
+Mostrar una consulta de estado. Si no es una consulta en vivo, identificar la fecha del registro. No cambiar ajustes ni referencias.
+Decir: Ahora consultamos cómo está el sistema. Esa información nos ayuda a saber si podemos continuar o si debemos revisar algo.
+
+30 a 50 segundos
+Mostrar la vista previa de HOLA ya preparada. No pulsar ejecutar ni enviar el archivo de movimiento.
+Decir: Este es el recorrido preparado para la palabra HOLA. Podemos revisarlo antes de decidir si el mecanismo está listo para realizarlo.
+
+50 a 65 segundos
+Cerrar la comparación entre la petición, el recorrido preparado y el ensayo en seco documentado.
+Decir: El programa prepara el recorrido y tenemos un ensayo sin lápiz. La escritura en papel requiere comprobar el contacto y guardar esa prueba.
+
+Si falta una referencia, aparece una alarma o el mecanismo no está preparado, mantener la demostración en consulta y vista previa. No calibrar, desbloquear ni enviar movimientos a partir de este documento. Una demostración física adicional requiere una revisión actual del montaje y un ensayo previo del operador.
+
+DIAPOSITIVA 16 — 11:58 a 12:00
+Gestor: Ahora, el video.
+12:00 a 15:00: reproducir el video vigente de 180 segundos. No hablar encima.
+
+PALABRAS PARA PRACTICAR
+Prototipo: Primera versión que construimos para probar una idea y descubrir qué falta mejorar.
+CNC: Máquina que sigue movimientos indicados por un computador.
+Hardware y software: Hardware son las piezas físicas. Software son las instrucciones que las hacen trabajar.
+Raspberry Pi y Arduino: La Raspberry es un computador pequeño. El Arduino es una placa que controla el mecanismo.
+API: Conexión que permite a un programa pedir una función a otro servicio.
+Prompt y Codex: Prompt es la solicitud escrita a la inteligencia artificial. Codex es la herramienta que ayuda a trabajar con código.
+Motor paso a paso y driver: El motor gira en pequeños avances. El driver activa las partes eléctricas que producen ese giro.
+X e Y: Nombres de las dos direcciones de movimiento sobre una superficie, como una cuadrícula.
+USB serial e I2C: Son formas de comunicar las piezas. USB une Raspberry y Arduino; I2C comunica la pantalla.
+Firmware y GRBL: Firmware es el programa cargado en una placa. GRBL es la base del programa que controla los movimientos.
+Código G: Instrucciones de movimiento, por ejemplo para ir a una posición.
+Variables y condiciones: Las variables guardan datos. Las condiciones permiten elegir qué hacer según esos datos.
+Calibrar y depurar: Calibrar es comprobar la relación entre la orden y el movimiento. Depurar es revisar un problema y comprobar una corrección.
+Vista previa y ensayo en seco: La vista previa muestra el dibujo preparado. El ensayo en seco prueba movimientos sin escribir con el lápiz.
+Impresión 3D y PLA: La impresión 3D forma una pieza capa por capa. PLA es el plástico utilizado en las piezas impresas.
+
+EJEMPLO DE SOLICITUD A CODEX
+Tenemos un Arduino Uno R3, tres motores 28BYJ-48 con sus placas ULN2003 y una Raspberry Pi 4B. Queremos revisar el programa de un asistente que prepara dibujos. Explica qué hace cada parte con palabras sencillas. Trabaja con los archivos y conexiones actuales. No cambies los límites ni quites las alarmas. Propón un cambio pequeño y una forma de comprobarlo. Si te falta información, indícalo. Separa preparar el dibujo de ordenar un movimiento real.
+
+NOTAS DE ENSAYO
+El discurso está organizado por diapositiva. Los seis roles conservan dos minutos cada uno. El maquetador reserva 65 segundos para la demostración dentro de su bloque.
+Ensayar con cronómetro. Los textos se dicen con pausas y señalando la pieza o imagen correspondiente. No leer los anexos ni las preguntas del jurado durante los doce minutos.
+La guía exige una demostración funcional en vivo. La secuencia preparada permite consultar y mostrar el trabajo. El ensayo en seco no demuestra escritura sobre papel; incorporar una prueba física solo después de validarla y conservar su evidencia.
+La guía propone Gemini para programar y pide explicar un error de compilación. El proyecto se explica desde la ayuda de Codex y la alarma de medición documentada. No inventar uso de Gemini, capturas históricas ni un mensaje de compilación.
+El video vigente dura 180 segundos y tiene voz en español latino y música. El equipo no habla encima de él. El gestor lo presenta al terminar el bloque oral.
+Durante la proyección, evitar que el audio active órdenes del asistente. El operador prepara el prototipo antes de empezar la presentación.
+El presupuesto conserva la consulta del 15 de octubre de 2026. Es una referencia de reposición, con estimaciones indicadas, y no una lista de gastos ya pagados.
+Los nombres quedan como roles genéricos, según lo autorizado. No mostrar claves, contraseñas ni datos privados en las capturas.
+
+PRESUPUESTO DE REFERENCIA — Consulta del 15 de octubre de 2026
+Motor 28BYJ-48 5V + driver ULN2003: 3 × $17.000 = $51.000
+Arduino UNO R3 compatible CH340 + cable USB: 1 × $20.230 = $20.230
+Raspberry Pi 4B, referencia 4GB RAM: 1 × $549.900 = $549.900
+Dupont macho-hembra, tira x40 de 20cm: 1 × $6.545 = $6.545
+Dupont macho-macho, tira x40 de 20cm: 1 × $6.010 = $6.010
+PLA para impresión 3D: compra de rollo: 1 × $70.000 = $70.000
+Impresión 3D: energía, desgaste y preparación: 1 × $20.000 = $20.000
+Fuente USB-C 5V 3A para Raspberry Pi 4: 1 × $31.357 = $31.357
+Fuente externa 5V 2A para motores: 1 × $18.600 = $18.600
+Protoboard MB102 830 puntos: 1 × $14.221 = $14.221
+MicroSD 32GB Clase 10 para el sistema: 1 × $69.500 = $69.500
+Tornillería, ejes/rodamientos y fijaciones: 1 × $30.000 = $30.000
+Bolígrafo, papel y consumibles de pruebas: 1 × $10.000 = $10.000
+Envíos y adaptadores menores: 1 × $30.000 = $30.000
+Recarga API OpenAI solicitada: USD10: 1 × $31.976,50 = $31.976,50
+Recarga ElevenLabs PAYG solicitada: USD10: 1 × $31.976,50 = $31.976,50
+Subtotal $991.316; reserva del 10% $99.132; total $1.090.448
+Referencia de reposición, no gasto ejecutado. Descontar materiales disponibles y comprobar compras con facturas. El enfriador no tiene una cotización separada en esta referencia.
+
+El objetivo es escribir sobre papel. La evidencia disponible acredita integración, preparación y un ensayo sin lápiz; no acredita todavía el trazo sobre una hoja.

@@ -32,3 +32,6 @@ button,a{touch-action:manipulation}.focus-nav,.model-tools,#motor-options{ -webk
 @media(min-width:901px){.world-shade{background:linear-gradient(90deg,#f4f7f6 0%,#f4f7f6 44%,#f4f7f68c 48%,transparent 52%)}}
 
 .dialog-links{flex-wrap:wrap;row-gap:12px}
+
+/* Soporte y pantalla · 16 oct 2026 */
+@media(min-width:901px){#focus-caption{top:204px}}@media(min-width:901px) and (max-height:850px){#focus-caption{top:180px}}

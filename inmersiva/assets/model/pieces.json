@@ -22,7 +22,7 @@
       [
         250.0,
         8.0,
-        -0.0
+        0.0
       ]
     ],
     "cadBounds_mm": [
@@ -14367,14 +14367,14 @@
     "nodeName": "uno_pcb",
     "bounds": [
       [
-        95.36999856948853,
-        15.32388199257105,
-        -26.286601257324218
+        95.3699951171875,
+        15.323882102966309,
+        -26.286602020263672
       ],
       [
-        148.37000143051148,
-        28.32388199257105,
-        50.1125
+        148.3699951171875,
+        28.323881149291992,
+        50.11249923706055
       ]
     ],
     "triangles": 3473
@@ -14395,14 +14395,14 @@
     "nodeName": "uno_components",
     "bounds": [
       [
-        95.36999856948853,
-        15.32388199257105,
-        -26.286601257324218
+        95.3699951171875,
+        15.323882102966309,
+        -26.286602020263672
       ],
       [
-        148.37000143051148,
-        28.32388199257105,
-        50.1125
+        148.3699951171875,
+        28.323881149291992,
+        50.11249923706055
       ]
     ],
     "triangles": 6675
@@ -14423,14 +14423,14 @@
     "nodeName": "uno_metal",
     "bounds": [
       [
-        95.36999856948853,
-        15.32388199257105,
-        -26.286601257324218
+        95.3699951171875,
+        15.323882102966309,
+        -26.286602020263672
       ],
       [
-        148.37000143051148,
-        28.32388199257105,
-        50.1125
+        148.3699951171875,
+        28.323881149291992,
+        50.11249923706055
       ]
     ],
     "triangles": 294
@@ -14451,16 +14451,5516 @@
     "nodeName": "uno_pads",
     "bounds": [
       [
-        95.36999856948853,
-        15.32388199257105,
-        -26.286601257324218
+        95.3699951171875,
+        15.323882102966309,
+        -26.286602020263672
       ],
       [
-        148.37000143051148,
-        28.32388199257105,
-        50.1125
+        148.3699951171875,
+        28.323881149291992,
+        50.11249923706055
       ]
     ],
     "triangles": 7730
+  },
+  {
+    "assemblyGroup": "stand",
+    "displayName": "Soporte impreso",
+    "description": "Piezas del soporte facilitado, ensambladas para sostener Raspberry y pantalla.",
+    "source": "soporte-local-yup-mm.glb",
+    "name": "P1 Bandeja Raspberry y alojamiento de columna",
+    "group": "Soporte impreso",
+    "cadComponent": "Soporte impreso",
+    "sourceKind": "provided STL, rigidly assembled",
+    "id": "stand_P1",
+    "nodeName": "stand_P1",
+    "bounds": [
+      [
+        283.4999961853101,
+        0.0,
+        -167.50000762935
+      ],
+      [
+        376.50000381470466,
+        16.0,
+        -82.49999237056093
+      ]
+    ],
+    "triangles": 7750
+  },
+  {
+    "assemblyGroup": "stand",
+    "displayName": "Soporte impreso",
+    "description": "Piezas del soporte facilitado, ensambladas para sostener Raspberry y pantalla.",
+    "source": "soporte-local-yup-mm.glb",
+    "name": "P2 Horquilla del cabezal con corona frontal",
+    "group": "Soporte impreso",
+    "cadComponent": "Soporte impreso",
+    "sourceKind": "provided STL, rigidly assembled",
+    "id": "stand_P2",
+    "nodeName": "stand_P2",
+    "bounds": [
+      [
+        292.99999999999375,
+        71.10000000004453,
+        -111.5
+      ],
+      [
+        310.99999999999375,
+        89.10000000004453,
+        -84.5
+      ]
+    ],
+    "triangles": 6866
+  },
+  {
+    "assemblyGroup": "stand",
+    "displayName": "Soporte impreso",
+    "description": "Piezas del soporte facilitado, ensambladas para sostener Raspberry y pantalla.",
+    "source": "soporte-local-yup-mm.glb",
+    "name": "P4 Columna de sección5.9mm con aro superior",
+    "group": "Soporte impreso",
+    "cadComponent": "Soporte impreso",
+    "sourceKind": "provided STL, rigidly assembled",
+    "id": "stand_P4",
+    "nodeName": "stand_P4",
+    "bounds": [
+      [
+        299.04999990463256,
+        0.100001196289071,
+        -110.49987696533202
+      ],
+      [
+        304.94999999768373,
+        88.09998593750001,
+        -94.53523157958983
+      ]
+    ],
+    "triangles": 2732
+  },
+  {
+    "assemblyGroup": "stand",
+    "displayName": "Soporte impreso",
+    "description": "Piezas del soporte facilitado, ensambladas para sostener Raspberry y pantalla.",
+    "source": "soporte-local-yup-mm.glb",
+    "name": "P5 Casquillo de baseØ30 y cuna cuadrada",
+    "group": "Soporte impreso",
+    "cadComponent": "Soporte impreso",
+    "sourceKind": "provided STL, rigidly assembled",
+    "id": "stand_P5",
+    "nodeName": "stand_P5",
+    "bounds": [
+      [
+        287.00661870422607,
+        0.0,
+        -117.4953160782972
+      ],
+      [
+        316.9999934910198,
+        16.0,
+        -87.50471302568764
+      ]
+    ],
+    "triangles": 5770
+  },
+  {
+    "assemblyGroup": "stand",
+    "displayName": "Soporte impreso",
+    "description": "Piezas del soporte facilitado, ensambladas para sostener Raspberry y pantalla.",
+    "source": "soporte-local-yup-mm.glb",
+    "name": "P6 Placa de montaje del cabezal",
+    "group": "Soporte impreso",
+    "cadComponent": "Soporte impreso",
+    "sourceKind": "provided STL, rigidly assembled",
+    "id": "stand_P6",
+    "nodeName": "stand_P6",
+    "bounds": [
+      [
+        287.49999999999534,
+        68.16900024416483,
+        -90.50000000277954
+      ],
+      [
+        316.49999999999534,
+        92.03099975588358,
+        -78.38000011444092
+      ]
+    ],
+    "triangles": 9696
+  },
+  {
+    "assemblyGroup": "stand",
+    "displayName": "Soporte impreso",
+    "description": "Piezas del soporte facilitado, ensambladas para sostener Raspberry y pantalla.",
+    "source": "soporte-local-yup-mm.glb",
+    "name": "P7 Pasador del pivote con estriado y retén",
+    "group": "Soporte impreso",
+    "cadComponent": "Soporte impreso",
+    "sourceKind": "provided STL, rigidly assembled",
+    "id": "stand_P7",
+    "nodeName": "stand_P7",
+    "bounds": [
+      [
+        293.0,
+        74.1500004699707,
+        -108.44999958837889
+      ],
+      [
+        311.0,
+        86.04999818115235,
+        -96.54999806249998
+      ]
+    ],
+    "triangles": 3434
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_eye_cyan_0",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_eye_cyan_0",
+    "nodeName": "screen_OLED_eye_cyan_0",
+    "bounds": [
+      [
+        293.3999991416931,
+        75.6500015258789,
+        -74.17500229179859
+      ],
+      [
+        299.199999332428,
+        82.1500015258789,
+        -74.02500228583813
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_eye_cyan_1",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_eye_cyan_1",
+    "nodeName": "screen_OLED_eye_cyan_1",
+    "bounds": [
+      [
+        304.800000667572,
+        75.6500015258789,
+        -74.17500229179859
+      ],
+      [
+        310.6000008583069,
+        82.1500015258789,
+        -74.02500228583813
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_eye_pupil_0",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_eye_pupil_0",
+    "nodeName": "screen_OLED_eye_pupil_0",
+    "bounds": [
+      [
+        295.87500154972076,
+        77.5,
+        -73.96500152349472
+      ],
+      [
+        297.42500150203705,
+        80.5,
+        -73.83500152826309
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_eye_pupil_1",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_eye_pupil_1",
+    "nodeName": "screen_OLED_eye_pupil_1",
+    "bounds": [
+      [
+        307.2749992609024,
+        77.5,
+        -73.96500152349472
+      ],
+      [
+        308.8249992132187,
+        80.5,
+        -73.83500152826309
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_eye_white_0",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_eye_white_0",
+    "nodeName": "screen_OLED_eye_white_0",
+    "bounds": [
+      [
+        293.84999918937683,
+        76.10000157356262,
+        -74.05500167608261
+      ],
+      [
+        298.74999928474426,
+        81.70000147819519,
+        -73.92500168085098
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_eye_white_1",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_eye_white_1",
+    "nodeName": "screen_OLED_eye_white_1",
+    "bounds": [
+      [
+        305.25000071525574,
+        76.10000157356262,
+        -74.05500167608261
+      ],
+      [
+        310.15000081062317,
+        81.70000147819519,
+        -73.92500168085098
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_glass",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_glass",
+    "nodeName": "screen_OLED_glass",
+    "bounds": [
+      [
+        289.75,
+        68.54999542236328,
+        -74.87500303983688
+      ],
+      [
+        314.25,
+        91.04999542236328,
+        -74.22500306367874
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_header",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_header",
+    "nodeName": "screen_OLED_header",
+    "bounds": [
+      [
+        296.75,
+        87.80000150203705,
+        -76.85000306367874
+      ],
+      [
+        307.25,
+        90.00000154972076,
+        -75.75000303983688
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_header_pin_0",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_header_pin_0",
+    "nodeName": "screen_OLED_header_pin_0",
+    "bounds": [
+      [
+        297.8799986243248,
+        88.59000152349472,
+        -78.20000076293945
+      ],
+      [
+        298.49999862909317,
+        89.21000152826309,
+        -76.20000076293945
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_header_pin_1",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_header_pin_1",
+    "nodeName": "screen_OLED_header_pin_1",
+    "bounds": [
+      [
+        300.41999953985214,
+        88.59000152349472,
+        -78.20000076293945
+      ],
+      [
+        301.0399995446205,
+        89.21000152826309,
+        -76.20000076293945
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_header_pin_2",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_header_pin_2",
+    "nodeName": "screen_OLED_header_pin_2",
+    "bounds": [
+      [
+        302.9600004553795,
+        88.59000152349472,
+        -78.20000076293945
+      ],
+      [
+        303.58000046014786,
+        89.21000152826309,
+        -76.20000076293945
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_header_pin_3",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_header_pin_3",
+    "nodeName": "screen_OLED_header_pin_3",
+    "bounds": [
+      [
+        305.50000137090683,
+        88.59000152349472,
+        -78.20000076293945
+      ],
+      [
+        306.1200013756752,
+        89.21000152826309,
+        -76.20000076293945
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_lower_retention",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_lower_retention",
+    "nodeName": "screen_OLED_lower_retention",
+    "bounds": [
+      [
+        288.19999980926514,
+        66.39999771118164,
+        -75.4000015258789
+      ],
+      [
+        315.80000019073486,
+        70.39999771118164,
+        -73.4000015258789
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_mouth_glow",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_mouth_glow",
+    "nodeName": "screen_OLED_mouth_glow",
+    "bounds": [
+      [
+        299.75,
+        72.92499697208405,
+        -74.18500274419785
+      ],
+      [
+        304.25,
+        74.47499692440033,
+        -74.05500274896622
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_mouth_white",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_mouth_white",
+    "nodeName": "screen_OLED_mouth_white",
+    "bounds": [
+      [
+        300.10000002384186,
+        73.17499697208405,
+        -74.06499999761581
+      ],
+      [
+        303.89999997615814,
+        74.22499692440033,
+        -73.93500000238419
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_PCB_27x27",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_PCB_27x27",
+    "nodeName": "screen_OLED_PCB_27x27",
+    "bounds": [
+      [
+        288.5,
+        66.5999984741211,
+        -76.00000154972076
+      ],
+      [
+        315.5,
+        93.5999984741211,
+        -74.80000150203705
+      ]
+    ],
+    "triangles": 140
+  },
+  {
+    "assemblyGroup": "screen",
+    "displayName": "Pantalla con rostro",
+    "description": "Muestra ojos y expresiones para hacer más cercana la interacción.",
+    "source": "electronics.glb",
+    "name": "OLED_upper_retention",
+    "group": "Pantalla con rostro",
+    "cadComponent": "Pantalla con rostro",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "screen_OLED_upper_retention",
+    "nodeName": "screen_OLED_upper_retention",
+    "bounds": [
+      [
+        288.19999980926514,
+        89.79999542236328,
+        -75.4000015258789
+      ],
+      [
+        315.80000019073486,
+        93.79999542236328,
+        -73.4000015258789
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_contact_base",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_contact_base",
+    "nodeName": "cooler_Cooler_contact_base",
+    "bounds": [
+      [
+        335.5,
+        18.299999952316284,
+        -149.5
+      ],
+      [
+        363.5,
+        21.700000047683716,
+        -122.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_00",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_00",
+    "nodeName": "cooler_Cooler_fin_00",
+    "bounds": [
+      [
+        339.5,
+        26.810000002384186,
+        -151.5
+      ],
+      [
+        365.5,
+        27.189999997615814,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_01",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_01",
+    "nodeName": "cooler_Cooler_fin_01",
+    "bounds": [
+      [
+        339.5,
+        27.88999992609024,
+        -151.5
+      ],
+      [
+        365.5,
+        28.26999992132187,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_02",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_02",
+    "nodeName": "cooler_Cooler_fin_02",
+    "bounds": [
+      [
+        339.5,
+        28.969999849796295,
+        -151.5
+      ],
+      [
+        365.5,
+        29.349999845027924,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_03",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_03",
+    "nodeName": "cooler_Cooler_fin_03",
+    "bounds": [
+      [
+        339.5,
+        30.04999977350235,
+        -151.5
+      ],
+      [
+        365.5,
+        30.42999976873398,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_04",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_04",
+    "nodeName": "cooler_Cooler_fin_04",
+    "bounds": [
+      [
+        339.5,
+        31.129999697208405,
+        -151.5
+      ],
+      [
+        365.5,
+        31.509999692440033,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_05",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_05",
+    "nodeName": "cooler_Cooler_fin_05",
+    "bounds": [
+      [
+        339.5,
+        32.20999962091446,
+        -151.5
+      ],
+      [
+        365.5,
+        32.58999961614609,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_06",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_06",
+    "nodeName": "cooler_Cooler_fin_06",
+    "bounds": [
+      [
+        339.5,
+        33.289999544620514,
+        -151.5
+      ],
+      [
+        365.5,
+        33.66999953985214,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_07",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_07",
+    "nodeName": "cooler_Cooler_fin_07",
+    "bounds": [
+      [
+        339.5,
+        34.36999946832657,
+        -151.5
+      ],
+      [
+        365.5,
+        34.7499994635582,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_08",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_08",
+    "nodeName": "cooler_Cooler_fin_08",
+    "bounds": [
+      [
+        339.5,
+        35.44999939203262,
+        -151.5
+      ],
+      [
+        365.5,
+        35.82999938726425,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_09",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_09",
+    "nodeName": "cooler_Cooler_fin_09",
+    "bounds": [
+      [
+        339.5,
+        36.52999931573868,
+        -151.5
+      ],
+      [
+        365.5,
+        36.909999310970306,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_10",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_10",
+    "nodeName": "cooler_Cooler_fin_10",
+    "bounds": [
+      [
+        339.5,
+        37.60999923944473,
+        -151.5
+      ],
+      [
+        365.5,
+        37.98999923467636,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_11",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_11",
+    "nodeName": "cooler_Cooler_fin_11",
+    "bounds": [
+      [
+        339.5,
+        38.68999916315079,
+        -151.5
+      ],
+      [
+        365.5,
+        39.069999158382416,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_12",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_12",
+    "nodeName": "cooler_Cooler_fin_12",
+    "bounds": [
+      [
+        339.5,
+        39.76999908685684,
+        -151.5
+      ],
+      [
+        365.5,
+        40.14999908208847,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_13",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_13",
+    "nodeName": "cooler_Cooler_fin_13",
+    "bounds": [
+      [
+        339.5,
+        40.85000091791153,
+        -151.5
+      ],
+      [
+        365.5,
+        41.23000091314316,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_14",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_14",
+    "nodeName": "cooler_Cooler_fin_14",
+    "bounds": [
+      [
+        339.5,
+        41.930000841617584,
+        -151.5
+      ],
+      [
+        365.5,
+        42.31000083684921,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_15",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_15",
+    "nodeName": "cooler_Cooler_fin_15",
+    "bounds": [
+      [
+        339.5,
+        43.01000076532364,
+        -151.5
+      ],
+      [
+        365.5,
+        43.39000076055527,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_16",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_16",
+    "nodeName": "cooler_Cooler_fin_16",
+    "bounds": [
+      [
+        339.5,
+        44.090000689029694,
+        -151.5
+      ],
+      [
+        365.5,
+        44.47000068426132,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_17",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_17",
+    "nodeName": "cooler_Cooler_fin_17",
+    "bounds": [
+      [
+        339.5,
+        45.17000061273575,
+        -151.5
+      ],
+      [
+        365.5,
+        45.55000060796738,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_18",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_18",
+    "nodeName": "cooler_Cooler_fin_18",
+    "bounds": [
+      [
+        339.5,
+        46.24999862909317,
+        -151.5
+      ],
+      [
+        365.5,
+        46.6299986243248,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_19",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_19",
+    "nodeName": "cooler_Cooler_fin_19",
+    "bounds": [
+      [
+        339.5,
+        47.33000046014786,
+        -151.5
+      ],
+      [
+        365.5,
+        47.710000455379486,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_20",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_20",
+    "nodeName": "cooler_Cooler_fin_20",
+    "bounds": [
+      [
+        339.5,
+        48.40999847650528,
+        -151.5
+      ],
+      [
+        365.5,
+        48.78999847173691,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_21",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_21",
+    "nodeName": "cooler_Cooler_fin_21",
+    "bounds": [
+      [
+        339.5,
+        49.49000030755997,
+        -151.5
+      ],
+      [
+        365.5,
+        49.870000302791595,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_22",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_22",
+    "nodeName": "cooler_Cooler_fin_22",
+    "bounds": [
+      [
+        339.5,
+        50.56999832391739,
+        -151.5
+      ],
+      [
+        365.5,
+        50.94999831914902,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_23",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_23",
+    "nodeName": "cooler_Cooler_fin_23",
+    "bounds": [
+      [
+        339.5,
+        51.650000154972076,
+        -151.5
+      ],
+      [
+        365.5,
+        52.030000150203705,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_24",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_24",
+    "nodeName": "cooler_Cooler_fin_24",
+    "bounds": [
+      [
+        339.5,
+        52.7299981713295,
+        -151.5
+      ],
+      [
+        365.5,
+        53.10999816656113,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_25",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_25",
+    "nodeName": "cooler_Cooler_fin_25",
+    "bounds": [
+      [
+        339.5,
+        53.810000002384186,
+        -151.5
+      ],
+      [
+        365.5,
+        54.189999997615814,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_26",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_26",
+    "nodeName": "cooler_Cooler_fin_26",
+    "bounds": [
+      [
+        339.5,
+        54.89000183343887,
+        -151.5
+      ],
+      [
+        365.5,
+        55.2700018286705,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_27",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_27",
+    "nodeName": "cooler_Cooler_fin_27",
+    "bounds": [
+      [
+        339.5,
+        55.969999849796295,
+        -151.5
+      ],
+      [
+        365.5,
+        56.349999845027924,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_28",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_28",
+    "nodeName": "cooler_Cooler_fin_28",
+    "bounds": [
+      [
+        339.5,
+        57.05000168085098,
+        -151.5
+      ],
+      [
+        365.5,
+        57.43000167608261,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_29",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_29",
+    "nodeName": "cooler_Cooler_fin_29",
+    "bounds": [
+      [
+        339.5,
+        58.129999697208405,
+        -151.5
+      ],
+      [
+        365.5,
+        58.50999969244003,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_30",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_30",
+    "nodeName": "cooler_Cooler_fin_30",
+    "bounds": [
+      [
+        339.5,
+        59.21000152826309,
+        -151.5
+      ],
+      [
+        365.5,
+        59.59000152349472,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_31",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_31",
+    "nodeName": "cooler_Cooler_fin_31",
+    "bounds": [
+      [
+        339.5,
+        60.289999544620514,
+        -151.5
+      ],
+      [
+        365.5,
+        60.66999953985214,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_32",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_32",
+    "nodeName": "cooler_Cooler_fin_32",
+    "bounds": [
+      [
+        339.5,
+        61.3700013756752,
+        -151.5
+      ],
+      [
+        365.5,
+        61.75000137090683,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_33",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_33",
+    "nodeName": "cooler_Cooler_fin_33",
+    "bounds": [
+      [
+        339.5,
+        62.44999939203262,
+        -151.5
+      ],
+      [
+        365.5,
+        62.82999938726425,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_34",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_34",
+    "nodeName": "cooler_Cooler_fin_34",
+    "bounds": [
+      [
+        339.5,
+        63.53000122308731,
+        -151.5
+      ],
+      [
+        365.5,
+        63.91000121831894,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_fin_35",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_fin_35",
+    "nodeName": "cooler_Cooler_fin_35",
+    "bounds": [
+      [
+        339.5,
+        64.60999923944473,
+        -151.5
+      ],
+      [
+        365.5,
+        64.98999923467636,
+        -120.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_heatpipe_0",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_heatpipe_0",
+    "nodeName": "cooler_Cooler_heatpipe_0",
+    "bounds": [
+      [
+        348.39059948921204,
+        19.335899353027344,
+        -147.90211296081543
+      ],
+      [
+        354.5,
+        71.9000015258789,
+        -144.09788703918457
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_heatpipe_1",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_heatpipe_1",
+    "nodeName": "cooler_Cooler_heatpipe_1",
+    "bounds": [
+      [
+        348.39059948921204,
+        19.335899353027344,
+        -127.90211343765259
+      ],
+      [
+        354.5,
+        71.9000015258789,
+        -124.09788680076599
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_heatpipe_end_0",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_heatpipe_end_0",
+    "nodeName": "cooler_Cooler_heatpipe_end_0",
+    "bounds": [
+      [
+        350.34999990463257,
+        71.39999985694885,
+        -148.15000009536743
+      ],
+      [
+        354.65000009536743,
+        73.60000014305115,
+        -143.84999990463257
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_heatpipe_end_1",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_heatpipe_end_1",
+    "nodeName": "cooler_Cooler_heatpipe_end_1",
+    "bounds": [
+      [
+        350.34999990463257,
+        71.39999985694885,
+        -128.15000009536743
+      ],
+      [
+        354.65000009536743,
+        73.60000014305115,
+        -123.84999990463257
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_mount_leg_0",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_mount_leg_0",
+    "nodeName": "cooler_Cooler_mount_leg_0",
+    "bounds": [
+      [
+        338.0,
+        15.949999809265137,
+        -153.5
+      ],
+      [
+        341.0,
+        24.449999809265137,
+        -114.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_mount_leg_1",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_mount_leg_1",
+    "nodeName": "cooler_Cooler_mount_leg_1",
+    "bounds": [
+      [
+        360.0,
+        15.949999809265137,
+        -153.5
+      ],
+      [
+        363.0,
+        24.449999809265137,
+        -114.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_mount_screw_0_9",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_mount_screw_0_9",
+    "nodeName": "cooler_Cooler_mount_screw_0_9",
+    "bounds": [
+      [
+        338.10000002384186,
+        23.99999988079071,
+        -117.39999997615814
+      ],
+      [
+        340.89999997615814,
+        26.00000011920929,
+        -114.60000002384186
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_mount_screw_0_-27",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_mount_screw_0_-27",
+    "nodeName": "cooler_Cooler_mount_screw_0_-27",
+    "bounds": [
+      [
+        338.10000002384186,
+        23.99999988079071,
+        -153.39999997615814
+      ],
+      [
+        340.89999997615814,
+        26.00000011920929,
+        -150.60000002384186
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_mount_screw_1_9",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_mount_screw_1_9",
+    "nodeName": "cooler_Cooler_mount_screw_1_9",
+    "bounds": [
+      [
+        360.10000002384186,
+        23.99999988079071,
+        -117.39999997615814
+      ],
+      [
+        362.89999997615814,
+        26.00000011920929,
+        -114.60000002384186
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_mount_screw_1_-27",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_mount_screw_1_-27",
+    "nodeName": "cooler_Cooler_mount_screw_1_-27",
+    "bounds": [
+      [
+        360.10000002384186,
+        23.99999988079071,
+        -153.39999997615814
+      ],
+      [
+        362.89999997615814,
+        26.00000011920929,
+        -150.60000002384186
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "cooler",
+    "displayName": "Disipador de torre",
+    "description": "Aletas metálicas y tubos que ayudan a sacar el calor de la Raspberry.",
+    "source": "electronics.glb",
+    "name": "Cooler_top_cap",
+    "group": "Disipador de torre",
+    "cadComponent": "Disipador de torre",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "cooler_Cooler_top_cap",
+    "nodeName": "cooler_Cooler_top_cap",
+    "bounds": [
+      [
+        339.0,
+        65.87499922513962,
+        -152.0
+      ],
+      [
+        366.0,
+        66.72499924898148,
+        -120.0
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_40mm_frame",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_40mm_frame",
+    "nodeName": "fan_Fan_40mm_frame",
+    "bounds": [
+      [
+        330.5,
+        27.0,
+        -156.0
+      ],
+      [
+        338.5,
+        67.0,
+        -116.0
+      ]
+    ],
+    "triangles": 368
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_0",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_0",
+    "nodeName": "fan_Fan_blade_0",
+    "bounds": [
+      [
+        332.69999980926514,
+        51.31449508666992,
+        -136.7506332397461
+      ],
+      [
+        333.8999996185303,
+        62.13663864135742,
+        -124.82285597920418
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_1",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_1",
+    "nodeName": "fan_Fan_blade_1",
+    "bounds": [
+      [
+        332.69999980926514,
+        45.519100189208984,
+        -133.01143264770508
+      ],
+      [
+        333.8999996185303,
+        52.728389739990234,
+        -119.66365957260132
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_2",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_2",
+    "nodeName": "fan_Fan_blade_2",
+    "bounds": [
+      [
+        332.69999980926514,
+        33.51276397705078,
+        -131.94141626358032
+      ],
+      [
+        333.8999996185303,
+        46.72028732299805,
+        -122.81566214561462
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_3",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_3",
+    "nodeName": "fan_Fan_blade_3",
+    "bounds": [
+      [
+        332.69999980926514,
+        30.258262634277344,
+        -141.0194969177246
+      ],
+      [
+        333.8999996185303,
+        43.35306739807129,
+        -132.38547897338867
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_4",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_4",
+    "nodeName": "fan_Fan_blade_4",
+    "bounds": [
+      [
+        332.69999980926514,
+        36.28840446472168,
+        -151.1210231781006
+      ],
+      [
+        333.8999996185303,
+        43.4435920715332,
+        -137.26277923583984
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_5",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_5",
+    "nodeName": "fan_Fan_blade_5",
+    "bounds": [
+      [
+        332.69999980926514,
+        45.06421089172363,
+        -152.3473415374756
+      ],
+      [
+        333.8999996185303,
+        55.306583404541016,
+        -140.09189796447754
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_blade_6",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_blade_6",
+    "nodeName": "fan_Fan_blade_6",
+    "bounds": [
+      [
+        332.69999980926514,
+        49.180335998535156,
+        -144.40917587280273
+      ],
+      [
+        333.8999996185303,
+        63.02808380126953,
+        -138.0990228652954
+      ]
+    ],
+    "triangles": 172
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_fastener_16.7_5.3",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_fastener_16.7_5.3",
+    "nodeName": "fan_Fan_fastener_16.7_5.3",
+    "bounds": [
+      [
+        329.55000030994415,
+        29.450000762939453,
+        -120.94999980926514
+      ],
+      [
+        330.6500004529953,
+        31.950000762939453,
+        -118.44999980926514
+      ]
+    ],
+    "triangles": 92
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_fastener_16.7_-27.3",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_fastener_16.7_-27.3",
+    "nodeName": "fan_Fan_fastener_16.7_-27.3",
+    "bounds": [
+      [
+        329.55000030994415,
+        29.450000762939453,
+        -153.54999923706055
+      ],
+      [
+        330.6500004529953,
+        31.950000762939453,
+        -151.04999923706055
+      ]
+    ],
+    "triangles": 92
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_fastener_49.3_5.3",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_fastener_49.3_5.3",
+    "nodeName": "fan_Fan_fastener_49.3_5.3",
+    "bounds": [
+      [
+        329.55000030994415,
+        62.04999923706055,
+        -120.94999980926514
+      ],
+      [
+        330.6500004529953,
+        64.54999923706055,
+        -118.44999980926514
+      ]
+    ],
+    "triangles": 92
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_fastener_49.3_-27.3",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_fastener_49.3_-27.3",
+    "nodeName": "fan_Fan_fastener_49.3_-27.3",
+    "bounds": [
+      [
+        329.55000030994415,
+        62.04999923706055,
+        -153.54999923706055
+      ],
+      [
+        330.6500004529953,
+        64.54999923706055,
+        -151.04999923706055
+      ]
+    ],
+    "triangles": 92
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_outer_rim",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_outer_rim",
+    "nodeName": "fan_Fan_outer_rim",
+    "bounds": [
+      [
+        329.5916001200676,
+        27.75,
+        -155.25
+      ],
+      [
+        331.20839911699295,
+        66.25,
+        -116.75
+      ]
+    ],
+    "triangles": 960
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_RGB_arc_0",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_RGB_arc_0",
+    "nodeName": "fan_Fan_RGB_arc_0",
+    "bounds": [
+      [
+        329.7700004577637,
+        48.10249710083008,
+        -136.01135063171387
+      ],
+      [
+        330.5299987792969,
+        65.46121978759766,
+        -117.575918674469
+      ]
+    ],
+    "triangles": 480
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_RGB_arc_1",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_RGB_arc_1",
+    "nodeName": "fan_Fan_RGB_arc_1",
+    "bounds": [
+      [
+        329.7700004577637,
+        28.575919151306152,
+        -134.89750289916992
+      ],
+      [
+        330.5299987792969,
+        47.0113525390625,
+        -117.53877687454224
+      ]
+    ],
+    "triangles": 480
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_RGB_arc_2",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_RGB_arc_2",
+    "nodeName": "fan_Fan_RGB_arc_2",
+    "bounds": [
+      [
+        329.7700004577637,
+        28.538776397705078,
+        -154.42408180236816
+      ],
+      [
+        330.5299987792969,
+        45.89750289916992,
+        -135.9886474609375
+      ]
+    ],
+    "triangles": 480
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_RGB_arc_3",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_RGB_arc_3",
+    "nodeName": "fan_Fan_RGB_arc_3",
+    "bounds": [
+      [
+        329.7700004577637,
+        46.9886474609375,
+        -154.46122360229492
+      ],
+      [
+        330.5299987792969,
+        65.4240837097168,
+        -137.10249614715576
+      ]
+    ],
+    "triangles": 480
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_rotor_hub",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_rotor_hub",
+    "nodeName": "fan_Fan_rotor_hub",
+    "bounds": [
+      [
+        331.4999997615814,
+        42.40000009536743,
+        -140.59999990463257
+      ],
+      [
+        335.5000002384186,
+        51.59999990463257,
+        -131.40000009536743
+      ]
+    ],
+    "triangles": 188
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_support_0",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_support_0",
+    "nodeName": "fan_Fan_support_0",
+    "bounds": [
+      [
+        336.50000035762787,
+        49.899999302513365,
+        -136.95000125777025
+      ],
+      [
+        337.7000004053116,
+        67.50000222336554,
+        -135.04999874222975
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_support_1.5707963267948966",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_support_1.5707963267948966",
+    "nodeName": "fan_Fan_support_1.5707963267948966",
+    "bounds": [
+      [
+        336.50000035762787,
+        46.05000001192093,
+        -133.1000002026558
+      ],
+      [
+        337.7000004053116,
+        47.94999998807907,
+        -115.49999982118607
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_support_3.141592653589793",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_support_3.141592653589793",
+    "nodeName": "fan_Fan_support_3.141592653589793",
+    "bounds": [
+      [
+        336.50000035762787,
+        26.49999777663446,
+        -136.95000125777025
+      ],
+      [
+        337.7000004053116,
+        44.100000697486635,
+        -135.04999874222975
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "fan",
+    "displayName": "Ventilador lateral",
+    "description": "Mueve aire por las aletas del enfriador, como se observa en el video.",
+    "source": "electronics.glb",
+    "name": "Fan_support_4.71238898038469",
+    "group": "Ventilador lateral",
+    "cadComponent": "Ventilador lateral",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "fan_Fan_support_4.71238898038469",
+    "nodeName": "fan_Fan_support_4.71238898038469",
+    "bounds": [
+      [
+        336.50000035762787,
+        46.04999926882733,
+        -156.50000101049912
+      ],
+      [
+        337.7000004053116,
+        47.95000073117267,
+        -138.9000005153798
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_audio_jack",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_audio_jack",
+    "nodeName": "raspberry_Pi_audio_jack",
+    "bounds": [
+      [
+        318.5,
+        15.799999952316284,
+        -116.30000019073486
+      ],
+      [
+        328.5,
+        22.399999856948853,
+        -109.69999980926514
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_audio_jack_recess",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_audio_jack_recess",
+    "nodeName": "raspberry_Pi_audio_jack_recess",
+    "bounds": [
+      [
+        318.2749995291233,
+        17.199999928474426,
+        -114.89999997615814
+      ],
+      [
+        318.52499970793724,
+        20.99999988079071,
+        -111.10000002384186
+      ]
+    ],
+    "triangles": 156
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_CPU",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_CPU",
+    "nodeName": "raspberry_Pi_CPU",
+    "bounds": [
+      [
+        341.5,
+        15.600000023841858,
+        -143.0
+      ],
+      [
+        355.5,
+        17.800000071525574,
+        -129.0
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_00",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_00",
+    "nodeName": "raspberry_Pi_Ethernet_contact_00",
+    "bounds": [
+      [
+        325.925000756979,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        326.4750007688999,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_01",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_01",
+    "nodeName": "raspberry_Pi_Ethernet_contact_01",
+    "bounds": [
+      [
+        327.09500083327293,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        327.64500084519386,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_02",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_02",
+    "nodeName": "raspberry_Pi_Ethernet_contact_02",
+    "bounds": [
+      [
+        328.2650009095669,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        328.8150009214878,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_03",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_03",
+    "nodeName": "raspberry_Pi_Ethernet_contact_03",
+    "bounds": [
+      [
+        329.4349990785122,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        329.9849990904331,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_04",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_04",
+    "nodeName": "raspberry_Pi_Ethernet_contact_04",
+    "bounds": [
+      [
+        330.60499915480614,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        331.15499916672707,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_05",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_05",
+    "nodeName": "raspberry_Pi_Ethernet_contact_05",
+    "bounds": [
+      [
+        331.7749992311001,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        332.324999243021,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_06",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_06",
+    "nodeName": "raspberry_Pi_Ethernet_contact_06",
+    "bounds": [
+      [
+        332.94500026106834,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        333.4950002729893,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_contact_07",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_contact_07",
+    "nodeName": "raspberry_Pi_Ethernet_contact_07",
+    "bounds": [
+      [
+        334.1150003373623,
+        24.449999809265137,
+        -80.79000076651573
+      ],
+      [
+        334.6650003492832,
+        25.949999809265137,
+        -80.61000075936317
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_LED_0",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_LED_0",
+    "nodeName": "raspberry_Pi_Ethernet_LED_0",
+    "bounds": [
+      [
+        323.60000002384186,
+        26.75,
+        -80.875
+      ],
+      [
+        325.39999997615814,
+        27.75,
+        -80.625
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_LED_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_LED_1",
+    "nodeName": "raspberry_Pi_Ethernet_LED_1",
+    "bounds": [
+      [
+        335.2000004053116,
+        26.75,
+        -80.875
+      ],
+      [
+        337.00000035762787,
+        27.75,
+        -80.625
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_recess",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_recess",
+    "nodeName": "raspberry_Pi_Ethernet_recess",
+    "bounds": [
+      [
+        323.949999332428,
+        17.5,
+        -80.94999847561121
+      ],
+      [
+        336.6499991416931,
+        26.300000190734863,
+        -80.74999847263098
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_Ethernet_shell",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_Ethernet_shell",
+    "nodeName": "raspberry_Pi_Ethernet_shell",
+    "bounds": [
+      [
+        322.54999923706055,
+        15.599999904632568,
+        -102.45000076293945
+      ],
+      [
+        338.04999923706055,
+        29.40000009536743,
+        -80.95000076293945
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_FFC_latch_12",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_FFC_latch_12",
+    "nodeName": "raspberry_Pi_FFC_latch_12",
+    "bounds": [
+      [
+        343.0,
+        18.90000009536743,
+        -113.5
+      ],
+      [
+        364.0,
+        19.90000009536743,
+        -112.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_FFC_latch_-38",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_FFC_latch_-38",
+    "nodeName": "raspberry_Pi_FFC_latch_-38",
+    "bounds": [
+      [
+        343.0,
+        18.90000009536743,
+        -163.5
+      ],
+      [
+        364.0,
+        19.90000009536743,
+        -162.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_FFC_socket_12",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_FFC_socket_12",
+    "nodeName": "raspberry_Pi_FFC_socket_12",
+    "bounds": [
+      [
+        342.5,
+        15.600000143051147,
+        -114.5
+      ],
+      [
+        364.5,
+        19.200000047683716,
+        -111.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_FFC_socket_-38",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_FFC_socket_-38",
+    "nodeName": "raspberry_Pi_FFC_socket_-38",
+    "bounds": [
+      [
+        342.5,
+        15.600000143051147,
+        -164.5
+      ],
+      [
+        364.5,
+        19.200000047683716,
+        -161.5
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_carrier",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_carrier",
+    "nodeName": "raspberry_Pi_GPIO_carrier",
+    "bounds": [
+      [
+        368.9500000476837,
+        15.599999904632568,
+        -161.04999923706055
+      ],
+      [
+        374.0499999523163,
+        18.59999990463257,
+        -109.95000076293945
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_00",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_00",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_00",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -159.94000107049942
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -159.32000106573105
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_01",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_01",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_01",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -157.40000015497208
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -156.7800001502037
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_02",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_02",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_02",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -154.85999923944473
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -154.23999923467636
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_03",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_03",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_03",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -152.32000023126602
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -151.70000022649765
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_04",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_04",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_04",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -149.77999931573868
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -149.1599993109703
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_05",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_05",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_05",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -147.24000030755997
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -146.6200003027916
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_06",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_06",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_06",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -144.69999939203262
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -144.07999938726425
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_07",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_07",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_07",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -142.1600003838539
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -141.54000037908554
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_08",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_08",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_08",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -139.62000042200089
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -139.0000004172325
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_09",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_09",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_09",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -137.08000046014786
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -136.4600004553795
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_10",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_10",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_10",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -134.5399995446205
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -133.91999953985214
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_11",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_11",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_11",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -132.00000005960464
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -131.38000005483627
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_12",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_12",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_12",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -129.46000009775162
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -128.84000009298325
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_13",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_13",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_13",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -126.9200000166893
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -126.30000001192093
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_14",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_14",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_14",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -124.37999999523163
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -123.75999999046326
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_15",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_15",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_15",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -121.83999997377396
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -121.21999996900558
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_16",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_16",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_16",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -119.29999977350235
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -118.67999976873398
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_17",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_17",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_17",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -116.75999981164932
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -116.13999980688095
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_18",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_18",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_18",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -114.2199998497963
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -113.59999984502792
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_0_19",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_0_19",
+    "nodeName": "raspberry_Pi_GPIO_pin_0_19",
+    "bounds": [
+      [
+        369.91999953985214,
+        17.0,
+        -111.67999988794327
+      ],
+      [
+        370.5399995446205,
+        23.0,
+        -111.0599998831749
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_00",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_00",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_00",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -159.94000107049942
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -159.32000106573105
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_01",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_01",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_01",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -157.40000015497208
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -156.7800001502037
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_02",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_02",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_02",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -154.85999923944473
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -154.23999923467636
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_03",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_03",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_03",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -152.32000023126602
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -151.70000022649765
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_04",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_04",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_04",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -149.77999931573868
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -149.1599993109703
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_05",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_05",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_05",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -147.24000030755997
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -146.6200003027916
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_06",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_06",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_06",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -144.69999939203262
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -144.07999938726425
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_07",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_07",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_07",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -142.1600003838539
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -141.54000037908554
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_08",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_08",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_08",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -139.62000042200089
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -139.0000004172325
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_09",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_09",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_09",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -137.08000046014786
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -136.4600004553795
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_10",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_10",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_10",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -134.5399995446205
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -133.91999953985214
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_11",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_11",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_11",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -132.00000005960464
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -131.38000005483627
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_12",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_12",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_12",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -129.46000009775162
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -128.84000009298325
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_13",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_13",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_13",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -126.9200000166893
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -126.30000001192093
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_14",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_14",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_14",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -124.37999999523163
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -123.75999999046326
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_15",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_15",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_15",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -121.83999997377396
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -121.21999996900558
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_16",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_16",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_16",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -119.29999977350235
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -118.67999976873398
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_17",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_17",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_17",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -116.75999981164932
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -116.13999980688095
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_18",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_18",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_18",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -114.2199998497963
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -113.59999984502792
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_GPIO_pin_1_19",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_GPIO_pin_1_19",
+    "nodeName": "raspberry_Pi_GPIO_pin_1_19",
+    "bounds": [
+      [
+        372.4600004553795,
+        17.0,
+        -111.67999988794327
+      ],
+      [
+        373.08000046014786,
+        23.0,
+        -111.0599998831749
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_microHDMI_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_microHDMI_1",
+    "nodeName": "raspberry_Pi_microHDMI_1",
+    "bounds": [
+      [
+        319.3500003814697,
+        15.700000047683716,
+        -144.65000009536743
+      ],
+      [
+        324.8500003814697,
+        19.899999856948853,
+        -137.34999990463257
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_microHDMI_1_recess",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_microHDMI_1_recess",
+    "nodeName": "raspberry_Pi_microHDMI_1_recess",
+    "bounds": [
+      [
+        319.2199996933341,
+        16.59999990463257,
+        -143.65000009536743
+      ],
+      [
+        319.41999969631433,
+        19.0,
+        -138.34999990463257
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_microHDMI_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_microHDMI_2",
+    "nodeName": "raspberry_Pi_microHDMI_2",
+    "bounds": [
+      [
+        319.3500003814697,
+        15.700000047683716,
+        -131.15000009536743
+      ],
+      [
+        324.8500003814697,
+        19.899999856948853,
+        -123.84999990463257
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_microHDMI_2_recess",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_microHDMI_2_recess",
+    "nodeName": "raspberry_Pi_microHDMI_2_recess",
+    "bounds": [
+      [
+        319.2199996933341,
+        16.59999990463257,
+        -130.15000009536743
+      ],
+      [
+        319.41999969631433,
+        19.0,
+        -124.84999990463257
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_microSD_under",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_microSD_under",
+    "nodeName": "raspberry_Pi_microSD_under",
+    "bounds": [
+      [
+        341.5,
+        11.400000095367432,
+        -167.0
+      ],
+      [
+        355.5,
+        14.0,
+        -155.0
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_MountPad_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_MountPad_1",
+    "nodeName": "raspberry_Pi_MountPad_1",
+    "bounds": [
+      [
+        321.8600001335144,
+        15.326640605926514,
+        -166.1399998664856
+      ],
+      [
+        326.1399998664856,
+        15.97335934638977,
+        -161.8600001335144
+      ]
+    ],
+    "triangles": 960
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_MountPad_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_MountPad_2",
+    "nodeName": "raspberry_Pi_MountPad_2",
+    "bounds": [
+      [
+        321.8600001335144,
+        15.326640605926514,
+        -108.1399998664856
+      ],
+      [
+        326.1399998664856,
+        15.97335934638977,
+        -103.8600001335144
+      ]
+    ],
+    "triangles": 960
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_MountPad_3",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_MountPad_3",
+    "nodeName": "raspberry_Pi_MountPad_3",
+    "bounds": [
+      [
+        370.8600001335144,
+        15.326640605926514,
+        -166.1399998664856
+      ],
+      [
+        375.1399998664856,
+        15.97335934638977,
+        -161.8600001335144
+      ]
+    ],
+    "triangles": 960
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_MountPad_4",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_MountPad_4",
+    "nodeName": "raspberry_Pi_MountPad_4",
+    "bounds": [
+      [
+        370.8600001335144,
+        15.326640605926514,
+        -108.1399998664856
+      ],
+      [
+        375.1399998664856,
+        15.97335934638977,
+        -103.8600001335144
+      ]
+    ],
+    "triangles": 960
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_PCB_85x56",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_PCB_85x56_0",
+    "nodeName": "raspberry_Pi_PCB_85x56_0",
+    "bounds": [
+      [
+        320.5,
+        14.0,
+        -167.5
+      ],
+      [
+        376.5,
+        15.600000023841858,
+        -82.5
+      ]
+    ],
+    "triangles": 557
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_PCB_85x56",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_PCB_85x56_1",
+    "nodeName": "raspberry_Pi_PCB_85x56_1",
+    "bounds": [
+      [
+        322.6499996185303,
+        14.0,
+        -165.3499984741211
+      ],
+      [
+        374.3500003814697,
+        15.600000023841858,
+        -104.64999961853027
+      ]
+    ],
+    "triangles": 241
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_RAM",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_RAM",
+    "nodeName": "raspberry_Pi_RAM",
+    "bounds": [
+      [
+        333.0,
+        15.600000023841858,
+        -159.0
+      ],
+      [
+        344.0,
+        17.800000071525574,
+        -147.0
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_RF_shield",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_RF_shield",
+    "nodeName": "raspberry_Pi_RF_shield",
+    "bounds": [
+      [
+        354.0,
+        15.600000023841858,
+        -163.0
+      ],
+      [
+        367.0,
+        17.800000071525574,
+        -149.0
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_02",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_02",
+    "nodeName": "raspberry_Pi_SMD_02",
+    "bounds": [
+      [
+        334.8090615272522,
+        15.599999994039536,
+        -117.01014816761017
+      ],
+      [
+        337.04005765914917,
+        16.400000005960464,
+        -115.80018317699432
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_04",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_04",
+    "nodeName": "raspberry_Pi_SMD_04",
+    "bounds": [
+      [
+        326.6642906665802,
+        15.599999994039536,
+        -140.02013793587685
+      ],
+      [
+        328.5837981700897,
+        16.400000005960464,
+        -139.1647261083126
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_06",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_06",
+    "nodeName": "raspberry_Pi_SMD_06",
+    "bounds": [
+      [
+        335.32681000232697,
+        15.599999994039536,
+        -158.36702585220337
+      ],
+      [
+        337.82339560985565,
+        16.400000005960464,
+        -156.97607564926147
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_08",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_08",
+    "nodeName": "raspberry_Pi_SMD_08",
+    "bounds": [
+      [
+        327.93044489622116,
+        15.599999994039536,
+        -142.35520988702774
+      ],
+      [
+        329.7270181775093,
+        16.400000005960464,
+        -141.46256202459335
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_09",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_09",
+    "nodeName": "raspberry_Pi_SMD_09",
+    "bounds": [
+      [
+        363.96823114156723,
+        15.599999994039536,
+        -140.4624382853508
+      ],
+      [
+        365.28496938943863,
+        16.400000005960464,
+        -139.00843077898026
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_10",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_10",
+    "nodeName": "raspberry_Pi_SMD_10",
+    "bounds": [
+      [
+        331.5030175447464,
+        15.599999994039536,
+        -109.58388823270798
+      ],
+      [
+        333.2373961210251,
+        16.400000005960464,
+        -108.34228593111038
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_12",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_12",
+    "nodeName": "raspberry_Pi_SMD_12",
+    "bounds": [
+      [
+        333.63332211971283,
+        15.599999994039536,
+        -158.4512714445591
+      ],
+      [
+        335.94556200504303,
+        16.400000005960464,
+        -157.4633785188198
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_14",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_14",
+    "nodeName": "raspberry_Pi_SMD_14",
+    "bounds": [
+      [
+        364.20363533496857,
+        15.599999994039536,
+        -111.53699666261673
+      ],
+      [
+        366.3603447675705,
+        16.400000005960464,
+        -110.12676256895065
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_15",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_15",
+    "nodeName": "raspberry_Pi_SMD_15",
+    "bounds": [
+      [
+        349.51412814855576,
+        15.599999994039536,
+        -120.45387434959412
+      ],
+      [
+        350.7855971455574,
+        16.400000005960464,
+        -119.27281403541565
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_17",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_17",
+    "nodeName": "raspberry_Pi_SMD_17",
+    "bounds": [
+      [
+        362.66680932044983,
+        15.599999994039536,
+        -111.73030376434326
+      ],
+      [
+        364.34025168418884,
+        16.400000005960464,
+        -110.63812732696533
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_19",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_19",
+    "nodeName": "raspberry_Pi_SMD_19",
+    "bounds": [
+      [
+        365.73008131980896,
+        15.599999994039536,
+        -139.17467454075813
+      ],
+      [
+        366.86765122413635,
+        16.400000005960464,
+        -138.3000645339489
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_20",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_20",
+    "nodeName": "raspberry_Pi_SMD_20",
+    "bounds": [
+      [
+        354.6084024310112,
+        15.599999994039536,
+        -105.99132829904556
+      ],
+      [
+        356.4028175473213,
+        16.400000005960464,
+        -104.79809659719467
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_21",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_21",
+    "nodeName": "raspberry_Pi_SMD_21",
+    "bounds": [
+      [
+        348.2613819241524,
+        15.599999994039536,
+        -119.4938794374466
+      ],
+      [
+        349.6722281575203,
+        16.400000005960464,
+        -118.20675837993622
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_24",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_24",
+    "nodeName": "raspberry_Pi_SMD_24",
+    "bounds": [
+      [
+        340.28745394945145,
+        15.599999994039536,
+        -109.64984661340714
+      ],
+      [
+        341.87271279096603,
+        16.400000005960464,
+        -108.37205737829208
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_25",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_25",
+    "nodeName": "raspberry_Pi_SMD_25",
+    "bounds": [
+      [
+        338.86199313402176,
+        15.599999994039536,
+        -155.04545134305954
+      ],
+      [
+        340.05389469861984,
+        16.400000005960464,
+        -153.59449464082718
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_28",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_28",
+    "nodeName": "raspberry_Pi_SMD_28",
+    "bounds": [
+      [
+        361.714297413826,
+        15.599999994039536,
+        -108.09023767709732
+      ],
+      [
+        363.38411796092987,
+        16.400000005960464,
+        -106.49894994497299
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_SMD_29",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_SMD_29",
+    "nodeName": "raspberry_Pi_SMD_29",
+    "bounds": [
+      [
+        363.82754123210907,
+        15.599999994039536,
+        -128.117830991745
+      ],
+      [
+        366.16397869586945,
+        16.400000005960464,
+        -126.92510151863098
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_00",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_00",
+    "nodeName": "raspberry_Pi_trace_00",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -152.0855941772461
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -149.9287815093994
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_01",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_01",
+    "nodeName": "raspberry_Pi_trace_01",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -146.78559494018555
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -144.62878227233887
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_02",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_02",
+    "nodeName": "raspberry_Pi_trace_02",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -141.48559379577637
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -139.32878017425537
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_03",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_03",
+    "nodeName": "raspberry_Pi_trace_03",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -136.18559551239014
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -134.02878093719482
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_04",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_04",
+    "nodeName": "raspberry_Pi_trace_04",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -130.88559532165527
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -128.72878050804138
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_05",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_05",
+    "nodeName": "raspberry_Pi_trace_05",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -125.58559507131577
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -123.4287805557251
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_06",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_06",
+    "nodeName": "raspberry_Pi_trace_06",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -120.28559494018555
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -118.12878036499023
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_trace_07",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_trace_07",
+    "nodeName": "raspberry_Pi_trace_07",
+    "bounds": [
+      [
+        356.4525203704834,
+        15.549999952316284,
+        -114.98559474945068
+      ],
+      [
+        365.5,
+        15.730000019073486,
+        -112.82878017425537
+      ]
+    ],
+    "triangles": 40
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_1_0",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_1_0",
+    "nodeName": "raspberry_Pi_USB2_contact_1_0",
+    "bounds": [
+      [
+        361.4249998033047,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        361.9749998152256,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_1_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_1_1",
+    "nodeName": "raspberry_Pi_USB2_contact_1_1",
+    "bounds": [
+      [
+        363.6249996125698,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        364.17499962449074,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_1_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_1_2",
+    "nodeName": "raspberry_Pi_USB2_contact_1_2",
+    "bounds": [
+      [
+        365.82500037550926,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        366.3750003874302,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_1_3",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_1_3",
+    "nodeName": "raspberry_Pi_USB2_contact_1_3",
+    "bounds": [
+      [
+        368.0249992311001,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        368.574999243021,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_2_0",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_2_0",
+    "nodeName": "raspberry_Pi_USB2_contact_2_0",
+    "bounds": [
+      [
+        361.4249998033047,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        361.9749998152256,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_2_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_2_1",
+    "nodeName": "raspberry_Pi_USB2_contact_2_1",
+    "bounds": [
+      [
+        363.6249996125698,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        364.17499962449074,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_2_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_2_2",
+    "nodeName": "raspberry_Pi_USB2_contact_2_2",
+    "bounds": [
+      [
+        365.82500037550926,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        366.3750003874302,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_contact_2_3",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_contact_2_3",
+    "nodeName": "raspberry_Pi_USB2_contact_2_3",
+    "bounds": [
+      [
+        368.0249992311001,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        368.574999243021,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_recess_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_recess_1",
+    "nodeName": "raspberry_Pi_USB2_recess_1",
+    "bounds": [
+      [
+        358.80000019073486,
+        17.299999952316284,
+        -82.08000122010708
+      ],
+      [
+        371.19999980926514,
+        21.899999856948853,
+        -81.86000122129917
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_recess_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_recess_2",
+    "nodeName": "raspberry_Pi_USB2_recess_2",
+    "bounds": [
+      [
+        358.80000019073486,
+        24.200000047683716,
+        -82.08000122010708
+      ],
+      [
+        371.19999980926514,
+        28.799999952316284,
+        -81.86000122129917
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_shell",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_shell",
+    "nodeName": "raspberry_Pi_USB2_shell",
+    "bounds": [
+      [
+        357.65000009536743,
+        15.600000381469727,
+        -99.0999984741211
+      ],
+      [
+        372.34999990463257,
+        30.600000381469727,
+        -82.0999984741211
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_tongue_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_tongue_1",
+    "nodeName": "raspberry_Pi_USB2_tongue_1",
+    "bounds": [
+      [
+        359.84999990463257,
+        18.199999809265137,
+        -81.95999969542027
+      ],
+      [
+        370.15000009536743,
+        19.699999809265137,
+        -81.67999969422817
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB2_tongue_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB2_tongue_2",
+    "nodeName": "raspberry_Pi_USB2_tongue_2",
+    "bounds": [
+      [
+        359.84999990463257,
+        25.100000381469727,
+        -81.95999969542027
+      ],
+      [
+        370.15000009536743,
+        26.600000381469727,
+        -81.67999969422817
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_1_0",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_1_0",
+    "nodeName": "raspberry_Pi_USB3_contact_1_0",
+    "bounds": [
+      [
+        343.72499999403954,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        344.27500000596046,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_1_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_1_1",
+    "nodeName": "raspberry_Pi_USB3_contact_1_1",
+    "bounds": [
+      [
+        345.92500004172325,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        346.4750000536442,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_1_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_1_2",
+    "nodeName": "raspberry_Pi_USB3_contact_1_2",
+    "bounds": [
+      [
+        348.1249999925494,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        348.67500000447035,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_1_3",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_1_3",
+    "nodeName": "raspberry_Pi_USB3_contact_1_3",
+    "bounds": [
+      [
+        350.3249998986721,
+        19.109999999403954,
+        -81.69999938830733
+      ],
+      [
+        350.87499991059303,
+        19.390000000596046,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_2_0",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_2_0",
+    "nodeName": "raspberry_Pi_USB3_contact_2_0",
+    "bounds": [
+      [
+        343.72499999403954,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        344.27500000596046,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_2_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_2_1",
+    "nodeName": "raspberry_Pi_USB3_contact_2_1",
+    "bounds": [
+      [
+        345.92500004172325,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        346.4750000536442,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_2_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_2_2",
+    "nodeName": "raspberry_Pi_USB3_contact_2_2",
+    "bounds": [
+      [
+        348.1249999925494,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        348.67500000447035,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_contact_2_3",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_contact_2_3",
+    "nodeName": "raspberry_Pi_USB3_contact_2_3",
+    "bounds": [
+      [
+        350.3249998986721,
+        26.009999617934227,
+        -81.69999938830733
+      ],
+      [
+        350.87499991059303,
+        26.28999961912632,
+        -81.57999939098954
+      ]
+    ],
+    "triangles": 12
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_recess_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_recess_1",
+    "nodeName": "raspberry_Pi_USB3_recess_1",
+    "bounds": [
+      [
+        341.10000014305115,
+        17.299999952316284,
+        -82.08000122010708
+      ],
+      [
+        353.4999997615814,
+        21.899999856948853,
+        -81.86000122129917
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_recess_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_recess_2",
+    "nodeName": "raspberry_Pi_USB3_recess_2",
+    "bounds": [
+      [
+        341.10000014305115,
+        24.200000047683716,
+        -82.08000122010708
+      ],
+      [
+        353.4999997615814,
+        28.799999952316284,
+        -81.86000122129917
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_shell",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_shell",
+    "nodeName": "raspberry_Pi_USB3_shell",
+    "bounds": [
+      [
+        339.9500000476837,
+        15.600000381469727,
+        -99.0999984741211
+      ],
+      [
+        354.64999985694885,
+        30.600000381469727,
+        -82.0999984741211
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_tongue_1",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_tongue_1",
+    "nodeName": "raspberry_Pi_USB3_tongue_1",
+    "bounds": [
+      [
+        342.14999985694885,
+        18.199999809265137,
+        -81.95999969542027
+      ],
+      [
+        352.4500000476837,
+        19.699999809265137,
+        -81.67999969422817
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB3_tongue_2",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB3_tongue_2",
+    "nodeName": "raspberry_Pi_USB3_tongue_2",
+    "bounds": [
+      [
+        342.14999985694885,
+        25.100000381469727,
+        -81.95999969542027
+      ],
+      [
+        352.4500000476837,
+        26.600000381469727,
+        -81.67999969422817
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB_C",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB_C",
+    "nodeName": "raspberry_Pi_USB_C",
+    "bounds": [
+      [
+        319.3500003814697,
+        15.700000047683716,
+        -161.30000019073486
+      ],
+      [
+        324.8500003814697,
+        19.899999856948853,
+        -152.69999980926514
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB_C_recess",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB_C_recess",
+    "nodeName": "raspberry_Pi_USB_C_recess",
+    "bounds": [
+      [
+        319.2199996933341,
+        16.59999990463257,
+        -160.29999995231628
+      ],
+      [
+        319.41999969631433,
+        19.0,
+        -153.70000004768372
+      ]
+    ],
+    "triangles": 108
+  },
+  {
+    "assemblyGroup": "raspberry",
+    "displayName": "Raspberry Pi",
+    "description": "Computador pequeño que coordina la conversación, el rostro y las órdenes de escritura.",
+    "source": "electronics.glb",
+    "name": "Pi_USB_controller",
+    "group": "Raspberry Pi",
+    "cadComponent": "Raspberry Pi",
+    "sourceKind": "video-based visual reconstruction; approximate dimensions",
+    "id": "raspberry_Pi_USB_controller",
+    "nodeName": "raspberry_Pi_USB_controller",
+    "bounds": [
+      [
+        346.5,
+        15.600000023841858,
+        -112.0
+      ],
+      [
+        356.5,
+        17.800000071525574,
+        -102.0
+      ]
+    ],
+    "triangles": 108
   }
 ]

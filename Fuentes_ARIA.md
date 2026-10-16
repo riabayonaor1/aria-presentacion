@@ -61,3 +61,12 @@ La música instrumental original se generó con **ElevenMusic v2** para el proye
 ## Alcance de la evidencia
 
 El prompt de programación es un ejemplo reproducible, no una captura histórica. La guía propone Gemini para programación asistida; el funcionamiento verificado de ARIA usa OpenAI y ElevenLabs. El video muestra montaje, pantalla y pruebas reales. No atribuye escritura sobre papel ni incidentes físicos específicos que no estén registrados. La accesibilidad y el impacto son objetivos por evaluar con usuarios.
+
+
+## Actualización del modelo — 16 de octubre de 2026
+
+Soporte:7 STL entregados por el equipo en la carpeta Cam+stand+one+color_stls. Se conservan las mallas y su escala de impresión;6 piezas forman el soporte visible y la cruceta alternativa se conserva entre los originales. No se suministró ficha de autor o licencia del soporte.
+
+Pantalla con rostro y Raspberry con enfriador: reconstrucción visual original a partir de IMG_8868 2.MOV, aportado por el equipo. Incluye placa horizontal, torre de aletas horizontales, tubos cobrizos y ventilador vertical lateral. Las dimensiones de estos elementos son aproximadas; el video no permite identificar marca del enfriador ni validar fijaciones ocultas. No se presentan mediciones térmicas. La referencia nominal de contorno y agujeros de la Raspberry Pi 4B procede del dibujo mecánico oficial: https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf (p. 8).
+
+El conjunto del asistente se sitúa sobre su propia base junto a la CNC. No se representa una unión mecánica del soporte a la CNC. Arduino Uno R3 sustituye visualmente el Nano y la shield de referencia. Los originales se conservan en el documento Fusion con su visibilidad desactivada.

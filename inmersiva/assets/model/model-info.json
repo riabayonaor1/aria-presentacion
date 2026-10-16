@@ -2,13 +2,13 @@
   "sourceDocument": "EnsamblajeCNCARIA",
   "sourceExportBodies": 620,
   "removedNanoAndShieldBodies": 308,
-  "visiblePresentationMeshes": 316,
-  "groups": 18,
-  "triangles": 96030,
-  "glbBytes": 6263800,
+  "visiblePresentationMeshes": 536,
+  "groups": 23,
+  "triangles": 160132,
+  "glbBytes": 10842044,
   "units": "millimeters",
   "up": "Y",
-  "adaptation": "La mecánica completa procede de Autodesk Fusion. Se retiraron Nano y shield y se incorporó el modelo Uno R3 que corresponde al controlador físico usado por el proyecto. No se modificó el diseño fuente. La ubicación en la escena sirve para explicar el sistema; no es un plano de fijación validado.",
+  "adaptation": "Mecánica CNC de Fusion con Arduino Uno R3. Soporte ensamblado a escala original con los STL suministrados. Raspberry, OLED y enfriador reconstruidos visualmente según el video. Electrónica de dimensiones aproximadas, colocada junto a la CNC como conjunto de mesa; fijaciones y cables ocultos no se inventan.",
   "materials": "Materiales de presentación grises, turquesa y coral; Uno azul/negro/metal para legibilidad. Opacidad de todos los cuerpos 1.",
   "uno": {
     "title": "Arduino Uno",
@@ -42,7 +42,7 @@
     "sha256": "566e2ecf16bb825469883d217a3319d3498fea2b3da53c240f6349a134ee39e8",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
-  "sha256": "14ca8721d191696512df10f1c68f73d29291e7884994682f6e708992c297c261",
+  "sha256": "a10b9fc073d22c2b37d07e549620437f009da5e9753670c561bce5ee63a788dc",
   "removedNodes": [
     "part_055",
     "part_056",
@@ -358,5 +358,54 @@
     "author": "mith",
     "url": "https://www.thingiverse.com/thing:4796222",
     "license": "Creative Commons Attribution, según el archivo LICENSE del paquete original"
+  },
+  "fusionNativeUpdate": {
+    "document": "EnsamblajeCNCARIA",
+    "savedVersion": 3,
+    "cloudComplete": true,
+    "date": "2026-10-16",
+    "importedMeshBodies": 34,
+    "groups": [
+      "stand",
+      "screen",
+      "raspberry",
+      "cooler",
+      "fan",
+      "uno"
+    ],
+    "maxBoundsTolerance_mm": 0.02,
+    "legacyNanoShield": "hidden, preserved in original references"
+  },
+  "support": {
+    "source": "Cam+stand+one+color_stls",
+    "visibleParts": [
+      "P1",
+      "P2",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "alternativePart": "P3 retained in original files",
+    "rootTranslationYup_mm": [
+      330,
+      0,
+      -125
+    ]
+  },
+  "electronics": {
+    "sourceVideo": "IMG_8868 2.MOV",
+    "dimensionalStatus": "visual reconstruction, approximate electronics dimensions",
+    "PiFrame": [
+      348.5,
+      14,
+      -125
+    ],
+    "OLEDFrame": [
+      302,
+      80.1,
+      -75.4
+    ],
+    "fan": "vertical side -X, horizontal fins, copper heatpipes"
   }
 }
